@@ -97,15 +97,14 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-<<<<<<< HEAD
-<<<<<<< HEAD
+
+
         'NAME': 'cmis3_db_new',
-=======
+
         'NAME': 'cmis4_db',
->>>>>>> 65827334fbf1f5d1e3508b179fb305e81b4c3651
-=======
+
         'NAME': 'cmis4_db',
->>>>>>> 65827334fbf1f5d1e3508b179fb305e81b4c3651
+
         'USER': 'cmis_user',
         'PASSWORD': '801223001_bwdb',
         'HOST': 'localhost',
