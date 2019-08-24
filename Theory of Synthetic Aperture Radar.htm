@@ -1,0 +1,997 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title>Theory of Synthetic Aperture Radar</title>
+</head>
+
+<body vlink="#3399FF" topmargin="0" text="#000000" link="#0033CC" leftmargin="0" bgcolor="#ffffff">
+
+<!--TOOLBAR_START
+<TABLE WIDTH=100% CELLPADDING=0 CELLSPACING=0 BORDER=0>
+	<TR>
+		<TD WIDTH=500 ROWSPAN=2 VALIGN=TOP>
+		<NOBR>
+		<FONT FACE="Verdana, Arial, Helvetica" SIZE=1>
+
+		<A HREF="../index.html"><IMG SRC="../images/a_small.gif" WIDTH=24 HEIGHT=21 BORDER=0 
+		ALT="A"></A><IMG SRC="../images/spacer.gif" WIDTH=39 HEIGHT=21 BORDER=0 
+		ALT=""><A HREF="../products.html"><IMG SRC="../images/products.gif" WIDTH=57 HEIGHT=21 BORDER=0 
+		ALT="Products"></A><IMG SRC="../images/spacer.gif" WIDTH=39 HEIGHT=21 BORDER=0 
+		ALT=""><A HREF="../news.html"><IMG SRC="../images/news.gif" WIDTH=35 HEIGHT=21 BORDER=0 
+		ALT="News"></A><IMG SRC="../images/spacer.gif" WIDTH=39 HEIGHT=21 BORDER=0 
+		ALT=""><A HREF="../shop.html"><IMG SRC="../images/shop.gif" WIDTH=34 HEIGHT=21 BORDER=0 
+		ALT="Shop"></A><IMG SRC="../images/spacer.gif" WIDTH=39 HEIGHT=21 BORDER=0 
+		ALT=""><A HREF="../search.html"><IMG SRC="../images/search.gif" WIDTH=44 HEIGHT=21 BORDER=0 
+		ALT="Search"></A><IMG SRC="../images/spacer.gif" WIDTH=39 HEIGHT=21 BORDER=0 
+		ALT=""><A HREF="../contact_us.html"><IMG SRC="../images/contact_us.gif" WIDTH=69 HEIGHT=21 BORDER=0 
+		ALT="Contact Us"></A><IMG SRC="../images/spacer.gif" WIDTH=39 HEIGHT=21 BORDER=0 
+		ALT="">
+
+		</FONT>
+		</NOBR>
+		</TD>
+		<TD BGCOLOR="#000000" WIDTH=100% HEIGHT=20></TD>
+		<TD WIDTH=126 ROWSPAN=2 ALIGN=RIGHT VALIGN=TOP>
+		<FONT FACE="Verdana, Arial, Helvetica" SIZE=1>
+		<A HREF="../index.html"><IMG SRC="../images/atlantis_small.gif" WIDTH=126 HEIGHT=21 ALT="Atlantis" BORDER=0></A>
+
+		</FONT>
+		</TD>
+	</TR>
+	<TR>
+		<TD BGCOLOR="#000000" WIDTH=100% HEIGHT=1>
+		</TD>
+	</TR>
+</TABLE>
+TOOLBAR_END-->
+
+<!--CONTENT_START-->
+<table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr>
+<td width="10"></td>
+<td width="100%">
+
+<font size="5" face="Verdana, Arial, Helvetica"><center><b>Theory of Synthetic Aperture Radar</b></center></font>
+<font size="2" face="Verdana, Arial, Helvetica">
+<p>
+</p><h2>Electromagnetic Theory</h2>
+
+Unlike optical and infrared imaging sensors which are inherently passive, meaning they 
+rely on reflected or radiated energy, radar is an active sensor--providing its own 
+illumination in the form of microwaves.  Microwaves are electromagnetic (EM) waves in 
+approximately the 1-1000 GHz region of the EM spectrum, as illustrated in Figure 1.
+<p>
+</p><center>
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig1.gif" alt="Electromagnetic Spectrum" width="575" height="132"><br><font size="2" face="Verdana, Arial, Helvetica">
+<i>Figure 1. The electromagnetic spectrum. Fuzzy lines indicate an imprecise boundary between regions.</i>
+</font><table width="575">
+
+</table><font size="2" face="Verdana, Arial, Helvetica">
+</font></center><font size="2" face="Verdana, Arial, Helvetica">
+
+<p>
+An electromagnetic wave is a self-propagating wave (requiring no medium to travel 
+through) consisting of electric and magnetic fields whose intensities follow a sinusoidal 
+pattern. These fields are perpendicular to each other and in phase as shown in Figure 2.
+
+</p><center>
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig2.gif" alt="Electromagnetic Wave" width="438" height="288"><br><font size="2" face="Verdana, Arial, Helvetica">
+<i>Figure 2. An electromagnetic wave propagating in the z-direction.</i>
+</font><table width="438">
+
+</table><font size="2" face="Verdana, Arial, Helvetica">
+</font></center><font size="2" face="Verdana, Arial, Helvetica">
+
+<p>
+One wavelength (<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/lambda.gif">) is the distance from one crest to the next crest. The frequency (<i>f</i>) of 
+the wave is the number of crests to travel one wavelength per unit time. The 
+propagation velocity (or phase velocity) of the wave is dependent on the medium through 
+which it is traveling.  It is calculated as:
+
+</p><p>
+</p><center>
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn1.gif">
+</center>
+
+<p>
+where <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/mu.gif"> and <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif"> are the permeability and
+permittivity, respectively, of the medium.  These are inherent electromagnetic
+qualities specific to different types of matter. The lowest values these can
+have are <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/mu.gif"><sub><i><small>0</small></i></sub> and
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif"><sub><i><small>0</small></i></sub> which occur for a
+vacuum (free space). Thus the maximum velocity of light is within a vacuum and
+is equal to:
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn2.gif">
+</p></center>
+
+<p>
+Air is so diffuse that within it the velocity of an EM wave can still be considered to be
+<i>c</i>. The wavelength and frequency are related to the velocity by the equation:
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn3.gif">
+</p></center>
+
+<p>
+where <i>v</i> is the velocity in metres per second, <i>f</i> is the
+frequency in Hertz (cycles per second) and <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/lambda.gif"> is the wavelength in metres.
+
+</p><p>
+The ratio of the electric field intensity <i>E</i> to the magnetic field
+intensity <i>B</i> at any moment is always equal to the speed of light in a vacuum.
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn4.gif">
+</p></center>
+
+<p>
+The polarization of the EM wave refers to the direction of the electric field
+vector. In radar science, the wave is said to be polarized in the direction
+of its <i>E</i> vector.
+
+</p><h2>Principles of Real Aperture Radar</h2>
+
+The two main types of radar images are the circularly scanning plan-position indicator 
+(PPI) images and the side-looking images. The PPI applications are limited to the 
+monitoring of air and naval traffic. Remote sensing applications use the side-looking 
+images which are divided into two types--real aperture radar (usually called SLAR for 
+side-looking airborne radar or SLR for side-looking radar) and synthetic aperture radar 
+(SAR).
+<p>
+The SLAR imaging system uses a long, straight antenna mounted on a platform (aircraft 
+or satellite), with its longitudinal axis parallel to the flight path.  The antenna emits 
+pulses of electromagnetic energy directed perpendicular to the flight path of the platform 
+and downward to the surface of the Earth, as illustrated in Figure 3.  These pulses fall 
+within a narrow area on the ground and are scattered, usually in many directions, 
+including the direction of the antenna.  The return echoes arrive at the antenna at 
+different times, depending on the distance from the antenna to the specific scattering 
+object on the ground.
+
+</p><h3>Range Resolution</h3>
+Range is the direction perpendicular to flight path of the aircraft. The
+vertical beamwidth <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theta.gif">, shown in Figure 3, is determined by
+the wavelength (<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/lambda.gif">) and the antenna height
+<i>W<sub><small>a</small></sub></i> such that <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theta.gif"><sub><i><small>v</small></i></sub>
+= <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/lambda.gif"> / <i>W<sub><small>a</small></sub></i>. Referring to Figure 4, we see that the
+width of the ground swath <i>W<sub><small>g</small></sub></i>, also called the range extent, is simply
+calculated as:
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn5.gif">
+</p></center>
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig3.gif" alt="Geometry of Side-Looking Real Aperture Radar" width="447" height="455">
+</p><p><i>Figure 3. Geometry of a side-looking real aperture radar.</i>
+</p></center>
+
+<p>
+and so
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn6.gif">
+</p></center>
+
+<p>
+where <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/nu.gif"> is the incidence angle of the beam at the midpoint
+of the swath (equal to the look angle <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/phi.gif">) and
+<i>R<sub><small>m</small></sub></i>
+is the slant range (distance) from the antenna to the midpoint of the swath.
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig4.gif" alt="Range Resolution of a Side-looking Real Aperture Radar" width="469" height="369">
+</p><p><i>Figure 4. Range resolution of a side-looking real aperture radar.</i>
+</p></center>
+
+<p>
+Ground resolution is defined as the minimum distance on the ground at which
+two object points can be imaged separately, shown in Figure 4 as the distance
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/delta.gif"><i>R<sub><small>g</small></sub></i>. Two objects can be distinguished if the leading
+edge of the pulse echo from the more distant object arrives at the antenna
+later than the trailing edge of the pulse echo from the nearer object. Thus
+if their distances to the antenna are different by at least half of the
+pulse length (the distance the pulse travels in the time
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/tau.gif"><sub><i><small>p</small></i></sub> during which the transmitter is turned on) then the
+objects are resolvable. Therefore the ground range resolution is
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn7.gif">
+</p></center>
+
+<p>
+where <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/delta.gif"><i>R<sub><small>g</small></sub></i> is the slant range resolution,
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/nu.gif"> is the incidence angle, <i>L<sub><small>p</small></sub></i> is the pulse length (in 
+units of distance), <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/tau.gif"><sub><i><small>p</small></i></sub> is the pulse
+duration (in units of
+time) and <i>c</i> is the speed of light. Note that as you approach the nadir
+line directly below the aircraft, <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/nu.gif"> approaches zero making
+sin(<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/nu.gif">) approach zero so that the ground range resolution
+becomes extremely poor. This makes sense since the objects near the nadir
+line are all virtually the same distance from the antenna, making them
+impossible to distinguish.
+
+</p><p>
+To achieve a ground range resolution small enough to be useful, the pulse duration
+çp would have to be too short to generate enough energy to produce a sufficient echo signal 
+to noise ratio (SNR).  To get around this, a technique known as pulse compression is 
+often used together with a type of processing of the returned signal known as matched 
+filtering (which we will not go into here, though a good description can be found in 
+Curlander, see <a href="http://www.geo.uzh.ch/~fpaul/sar_references.html">SAR References</a>) to produce both high resolution and a 
+high SNR.  The ground range resolution possible with these techniques is
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn8.gif">
+</p></center>
+
+<p>
+where <i>B<sub><small>R</small></sub></i> is the frequency bandwidth of the
+transmitted radar pulse. The resolution can be further improved by increasing
+the frequency bandwidth.
+
+</p><h3>Azimuth Resolution</h3>
+Azimuth is the direction parallel to the flight path of the aircraft. Figure 3 shows that 
+the angular spread of the radar beam in the azimuth direction is equal to
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theta.gif"><sub><i><small>H</small></i></sub> = <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/lambda.gif"> /
+<i>L<sub><small>a</small></sub></i> where <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/lambda.gif">
+is the wavelength of the transmitted beam and <i>L<sub><small>a</small></sub></i> is the length of the radar antenna in 
+the azimuth direction.  This spread is due to interference of the waves emitted from and 
+received by the dipoles of the antenna, which causes the angular spread to decrease as 
+the aperture length increases (a longer antenna produces a tighter beam, much as a 
+longer barrel of a gun produces less dispersion).  Two objects on the ground and with 
+the same slant range <i>R</i> can only be imaged separately if they are not both within the 
+radar beam at the same time.  Thus the azimuth resolution is
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn9.gif">
+</p></center>
+
+<h2>Principles of Synthetic Aperture Radar</h2>
+Because of the way in which microwaves interact with the atmosphere and the ground, 
+only a select few frequency bands are useful for imaging.  These are shown in Figure 5.  
+The wavelength affects the penetration depth and also the size of a target necessary to 
+return the radar.  This shall be discussed later.
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig5.gif" alt="Microwave Frequency Bands" width="575" height="152">
+</p><p><i>Figure 5. Microwave frequency bands useful for imaging.</i>
+</p></center>
+
+<p>
+For a specific frequency <i>f</i> (or wavelength <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/lambda.gif">) and
+slant range <i>R</i>, the azimuth resolution is entirely dependent on the
+aperture length <i>L<sub><small>a</small></sub></i>. However, for the altitudes at which 
+satellite or airborne imaging sensors operate (in the 1-10 GHz region),
+engineering difficulties make it is impossible to achieve values of
+<i>L<sub><small>a</small></sub></i> / <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/lambda.gif"> greater than several hundred. 
+For example, the new Canadian satellite RADARSAT, launched in 1995, orbits 
+at 792 km and operates at a frequency of 5.3 GHz (C-Band). The real aperture
+limit to the azimuth resolution would be
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn10.gif">
+</p></center>
+
+<p>
+Through the use of synthetic aperture technology, however, RADARSAT can
+achieve a resolution as low as 9 m.
+</p><p>
+It was in 1951 that Carl Wiley first realized that the Doppler spread of the echo signal 
+could be used to synthesize a much longer aperture (thus the name synthetic aperture 
+radar) to greatly improve the resolution of a side-looking radar.
+
+</p><h3>The Doppler Effect</h3>
+When a detector moves with respect to a source of waves, a shift in frequency is 
+observed known as the Doppler effect.  When a source emitting waves with frequency
+<i>f</i> recedes from the observer at a velocity <i>v</i>, the observed frequency is
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn11.gif">
+</p></center>
+
+<p>
+When the source approaches the observer, the observed frequency is
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn12.gif">
+</p></center>
+
+<p>
+where <i>v</i> is always positive. Thus a receding source exhibits a lower frequency and an 
+approaching source exhibits a <i>higher</i> frequency than the <i>actual</i> frequency emitted.
+</p><p>
+When two target points on the ground are separated in the azimuth direction, they are 
+at slightly different angles from the antenna with respect to the line of flight.  Because of 
+this, they have slightly different speeds at any given moment relative to the antenna.  
+Therefore the signal echoed from each target will have its frequency shifted a different 
+amount from the original.  To calculate the Doppler frequency shift for a specific target, 
+refer to Figure 6 as we first calculate <i>dR/dt</i>--the relative speed with which the target and 
+antenna approach each other.
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig6.gif" alt="SAR Geometry" width="291" height="397">
+</p><p><i>Figure 6. SAR geometry for calculating the Doppler frequency shift for a point target.</i>
+</p></center>
+
+<p>
+To find the <i>R</i>-directional component of <i>V<sub><small>rel</small></sub></i>
+(the velocity with which the target approaches the sensor), we can project
+<i>V<sub><small>rel</small></sub></i> (parallel to <i>x</i>) onto a line parallel to
+<i>R</i> to get
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn13.gif">
+</p></center>
+
+<p>
+Now, we can calculate the frequency observed by the ground target:
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn14.gif">
+</p></center>
+
+<p>
+But for <i>v</i> &lt;&lt; <i>c</i>, <i>v</i><sup><small>2</small></sup> /
+<i>c</i><sup><small>2</small></sup> approaches 0. Therefore
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn15.gif">
+</p></center>
+
+<p>
+This frequency is different from the actual frequency emitted from the antenna by the 
+amount
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn16.gif">
+</p></center>
+
+<p>
+Since the return echo will be shifted by the same amount, the Doppler frequency shift 
+for the target is
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn17.gif">
+</p></center>
+
+<p>
+This value provides a means of determining exactly where the echo signal came from.  
+For a return signal detected by the antenna at a time corresponding to the slant range R 
+(<i>t</i> = 2<i>R</i>/<i>c</i>) and with a Doppler frequency shift of
+<i>f<sub><small>d</small></sub></i>, the azimuth coordinate must be
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn18.gif">.
+</p></center>
+
+<p>
+Even if another target is at range <i>R</i> and within the beam at the same
+time, measurement of its Doppler frequency shift <i>f<sub><small>d</small></sub></i>
+still allows us to
+associate it with an azimuth coordinate <i>x</i><sub><small>2</small></sub>.
+Thus for any target point, we now have two coordinates to localize it--the
+ground range <i>R<sub><small>g</small></sub></i>, relative to the nadir line,
+and the azimuth distance <i>x</i><sub><small>2</small></sub> relative to broadside.
+
+</p><h3>SAR Azimuth Resolution</h3>
+Utilizing the Doppler effect cannot increase the range resolution but it does greatly 
+increase the azimuth resolution. From the equation for Doppler frequency shift, the 
+azimuth resolution can be calculated as
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn19.gif">
+</p></center>
+
+<p>
+where <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/delta.gif"><i>f<sub><small></small></sub></i> is the
+resolution of the Doppler frequency shift--approximately equal to the 
+inverse of the time during which the point target was in the beam,
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/delta.gif"><i>f<sub><small>d</small></sub></i> <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/approx_equals.gif"> 1 / <i>t</i><sub><small>span</small></sub>.
+This time span can be calculated as
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn20.gif">
+</p></center>
+
+<p>
+Therefore the azimuth resolution is
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn21.gif">
+</p></center>
+
+<p>
+which implies that better resolution is obtained with a smaller antenna--not what one 
+would expect since this is opposite to the rule for real aperture radar.  This does not 
+mean, of course, that one could simply build an antenna 1 cm long to obtain a 
+resolution of 5 mm.  The length of the aperture must be large enough to create the 
+proper interference pattern between the dipoles of the antenna necessary for the desired 
+beamspread at a particular frequency--
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theta.gif"><sub><small><i>H</i></small></sub> = <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/lambda.gif">
+/ <i>L<sub><small>a</small></sub></i>.
+
+</p><p>
+This result of <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/delta.gif"><sub><small><i>x</i></small></sub> =
+<i>L<sub><small>a</small></sub></i> / 2 is not strictly true, however, since
+we assumed that a constant Doppler frequency shift was observed during the
+entire time <i>t</i><sub><small>span</small></sub>. In fact,
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/delta.gif"><i>f<sub><small>d</small></sub></i> changes 
+throughout the observation and is only approximately constant for a time much less 
+than <i>t</i><sub><small>span</small></sub>.
+A Fourier analysis of the Doppler waveform results in frequency components 
+at various frequencies so that the target is observed to spread out over multiple 
+resolution cells, covering a distance greater than the resolution
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/delta.gif"><i>x</i> calculated above.
+
+</p><h3>SAR Azimuth Compression</h3>
+As the radar beam passes over the point target, as in Figure 7, the slant range to the 
+target varies--decreasing to a minimum and then increasing again.  Thus one target 
+traces a hyperbolic line in the azimuth-slant range plane.  This hyperbola is known as 
+the range migration curve and the line joining the two ends is known as the rangewalk.  
+Since this hyperbola is representative of only one point, all the points along this curve 
+must be compressed to form a single pixel in the final image.  There are several 
+problems involved in this, however.  First, the shape of the hyperbolic line depends 
+greatly on the slant range distance to the target when at the centre of the radar beam.  
+Second, the system impulse response changes with slant range.  That is, the received 
+signal is sensitive to the time delay, thus requiring different filter parameters to 
+maintain the constant power requirement.
+
+<p>
+An airborne SAR has an altitude low enough to consider the Earth as a flat surface.  The 
+hyperbola will be very flat since the range differences for one target are relatively small.  
+When operating from a satellite, however, the altitude is high enough that the curvature 
+of the Earth becomes a factor, extending the hyperbola.  Also, the rotation of the Earth 
+warps it to one side in the range direction.  These effects must be corrected before the 
+compression processing can begin.
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig7a.gif" alt="Footprints" width="292" height="379">
+</p><p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig7b.gif" alt="Hyperbolic Curve" width="575" height="303">
+</p><p><i>Figure 7. Hyperbolic curve traced by a point target in the azimuth-slant range plane.</i>
+</p></center>
+
+<p>
+When two waves are not synchronous with each other, they are said to be out of phase.  
+The phase difference is measured in radians or degrees.  For instance, if the wave A's 
+crest occurs at the same time as wave B's trough, the phase difference is
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/pi.gif"> (or 180º). 
+Figure 8 illustrates further examples.
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig8.gif" alt="Phase Differences" width="420" height="92">
+</p><p><i>Figure 8. Phase differences between two waves.</i>
+</p></center>
+
+<p>
+The phase difference, in radians, between the transmitted and received signal will be
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn22.gif">
+</p></center>
+
+<p>
+where Figure 9, shows that the range is
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn23.gif">
+</p></center>
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig9.gif" alt="Target Within Radar Beam" width="207" height="197">
+</p><p><i>Figure 9. Quadratic relation between range and time for a target within the radar beam.</i>
+</p></center>
+
+<p>
+Using the Taylor series to expand this around the position
+<i>x<sub><small>c</small></sub></i> for the slant range
+<i>R<sub><small>c</small></sub></i> gives
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn24.gif">
+</p></center>
+
+<p>
+when truncated to the second order. Assuming that
+<i>R<sub><small>c</small></sub></i> and <i>R<sub><small>0</small></sub></i>
+are approximately equal for narrow beam radars, the Doppler frequency shift is
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn25.gif">
+</p></center>
+
+<p>
+By assuming that the Doppler frequency shift is constant only until the
+quadratic term adds a value of <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/pi.gif"> / 4 to <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/phi.gif">,
+then the window for observing the waveform is confined to a distance of
+<i>x</i><sub><small>window</small></sub>, where 
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn26.gif">
+</p></center>
+
+<p>
+and so
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn27.gif">
+</p></center>
+
+<p>
+Therefore the time window is
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn28.gif">
+</p></center>
+
+<p>
+Therefore, the new azimuth resolution is
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn29.gif">
+</p></center>
+
+<p>
+A SAR processor which uses this technique is known as unfocused SAR.  This technique 
+does not account for the variable rate of phase change, but still manages to produce a 
+resolution much smaller than that for real aperture radars.  For example, using the 
+above equation, the resolution for RADARSAT would be
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn30.gif">
+</p></center>
+
+<p>
+as opposed to the real aperture limit of 3.0 km.
+
+</p><p>
+The resolution can get even better, however, by using a focused SAR processor which 
+accounts for the nonlinear phase change. This technique uses all the data collected 
+during the time that the target is within the beam.  The quadratic phase
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/phi.gif"> is adjusted such that all the return signals due to the
+target at <i>x<sub><small>0</small></sub></i> (see Figure 9) are added 
+coherently. Any returns from targets not at <i>x<sub><small>0</small></sub></i>
+will not agree with the adjusted returns so they will cancel. Thus the returns
+from the target at <i>x<sub><small>0</small></sub></i> will dominate the returns from 
+other targets with the same range but not at <i>x<sub><small>0</small></sub></i>.
+With a few assumptions, this technique results in an azimuth resolution
+approaching <i>L<sub><small>a</small></sub></i> / 2, which is what we calculated
+before, assuming a constant phase.
+
+</p><h2>Geometric Distortions</h2>
+At first glance, a SAR image may seem to closely resemble an optical image.  Closer 
+inspection, however, reveals striking differences which can be used, given knowledge of 
+how radar interacts with ground features, to provide a wide spectrum of information 
+about the targets.  The most obvious difference from an optical image is the geometric 
+distortion produced due to the depression angle and the height or slope of the target.
+
+<h3>Slant vs. Ground Range</h3>
+When terrain is imaged using an optical sensor such as a camera, the image can be 
+thought of as a central perspective projection--all of the terrain points have projection 
+lines passing through a central point on their way to their corresponding image points, 
+as in Figure 10a.  The situation for a SAR is very much different, however, in that 
+ground objects will be placed into locations on the image line as a function of their 
+distance from the antenna--not as a function of their distance from each other on the 
+ground.  Figure 10b shows that the projection lines are concentric circles around the 
+antenna, due to the spherical spreading of EM pulses.
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig10.gif">
+</p><p><i>Figure 10. Image projections for (a) optical and (b) SAR imaging systems.</i>
+</p></center>
+
+<p>
+Suppose you are imaging objects A and B, separated a distance   on the ground, as 
+shown in Figure 11.  Because the SAR is viewing from an angle, the two points will look 
+closer together than they actually are.  Since angle ACB is approximately 90º, we can 
+say that <i>D<sub><small>g</small></sub></i> in slant range presentation is
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn31.gif">
+</p></center>
+
+<p>
+so that the distance in slant range presentation is always less than in the corresponding 
+ground range projection. As the depression angle <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theta.gif"> gets larger,
+<i>D<sub><small>s</small></sub></i> gets smaller for a given distance
+<i>D<sub><small>g</small></sub></i>. Thus the slant range presentation
+compresses the terrain features in the near range more than in the far range.
+This has the effect of greatly stretching the ground range projection near
+the nadir where <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theta.gif"> approaches 90º.
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig11.gif">
+</p><p><i>Figure 11. Image of points A and B in slant range and ground range presentations.</i>
+</p></center>
+
+<p>
+The ground range presentation is used when one wishes to match the image with known 
+target locations (i.e. geocoding the image) on the ground.
+<a href="http://www.geo.uzh.ch/products/EarthView.html"> EarthView</a> is able to convert an image from slant
+range to ground range and visa versa, taking into account the curvature
+of the Earth for satellite imagery.
+
+</p><h3>Relief Displacement</h3>
+Imaging a target on top of a vertical structure height <i>h</i> above the ground results in a 
+relief displacement, that is, the target is displaced a distance of
+<i>r<sub><small>s</small></sub></i> in the original slant range presentation
+of the image, as shown in Figure 12.
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig12.gif">
+</p><p><i>Figure 12. Relief displacement due to a vertical structure.</i>
+</p></center>
+
+<p>
+The relief displacement <i>r<sub><small>g</small></sub></i> is equal to the
+distance <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/PgX.gif">, however for a small enough value of <i>h</i>,
+we see that <i>P<sub><small>g</small></sub>X</i> <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/approx_equals2.gif">
+<i>P'X</i>. Thus we can estimate the relief displacement in ground 
+presentation as
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn32.gif">
+</p></center>
+
+<p>
+and in slant range presentation as
+ 
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn33.gif">
+</p></center>
+
+<p>
+Thus the relief displacement is proportional to the height of the vertical structure and 
+increases the closer that structure is to the nadir line.
+
+</p><h3>Lay Over</h3>
+The direction of relief displacement is different for optical and radar systems.  A camera 
+sees the relief displaced away from the nadir point while the SAR see the relief displaced 
+towards the nadir line.  This is illustrated in Figure 13.
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig13.gif">
+</p><p><i>Figure 13. A comparison of relief displacement for (a) optical and (b) SAR systems.</i>
+</p></center>
+
+<h3>Shadows</h3>
+The other effect of vertical structures is to produce shadows in the SAR image.  Figures 
+12 and 13 illustrate this effect quite well.  Because the radar beam is at an angle, there 
+will be a region of ground behind the vertical structure that the beam cannot reach.  
+Thus for the time period corresponding to that ground area, no echoes will be returned.  
+This results in a black area on the image which is called a shadow.  From Figure 12, the 
+length of the shadow is calculated as
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn34.gif">
+</p></center>
+
+<p>
+in ground range presentation and
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn35.gif">
+</p></center>
+
+<p>
+in slant range presentation.  Thus the length of the shadow is proportional to the height 
+of the vertical structure and increases the further away that structure is from the nadir 
+line or the lower the SAR antenna is.
+
+</p><h3>Image of a Slope</h3>
+The effects of imaging sloping terrain with radar are illustrated in Figure 14.  Due to the 
+vertical height, relief displacement, lay over and shadows can result, depending on the 
+steepness of the slope.  Slopes facing the nadir line can exhibit the effects of (a) lay over, 
+(c) foreshortening and the in-between case (b) for which the front slope appears only as a 
+line.  Case (b) only occurs when the slope is parallel to the nadir line and the elevation 
+angle <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/gamma.gif"> equals the slope angle <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/alpha.gif"> exactly.
+
+<p>
+Slopes facing away from the nadir line can be (a) fully imaged, (c) hidden in the radar 
+shadow or (b) strangely imaged as the radar beam just skims along the surface.  For 
+case (b), slight irregularities on the slope's surface would have magnified effects.  For 
+instance, a bump near the peak would block the radar from the rest of the slope causing 
+a shadow to appear in the image.
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig14.gif">
+</p><p><i>Figure 14. Image effects produced by sloping terrain.</i>
+</p></center>
+
+<p>
+All of these slope effects can be found in Figure 15--a subsection of the SAR image 
+82LWERS1 (<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/copyright.gif"> ESA) from the ERS-1 satellite, provided
+with <a href="http://www.geo.uzh.ch/products/EarthView.html"> EarthView</a>.
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig15.gif">
+</p><p><i>Figure 15. ERS-1 SAR image illustrating the effects of uneven terrain
+(<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/copyright.gif"> ESA).</i>
+</p></center>
+
+<h2>Surface Interaction with the Radar Beam</h2>
+When an electromagnetic wave reflects off a surface, three basic properties of
+the surface come into play--the dielectric constant (or permittivity 
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif">), the roughness (rms height relative to a smooth
+surface) and the local slope.
+
+<p>
+Assuming that the EM wave is traveling through a medium that is homogeneous 
+(properties do not vary from point to point), isotropic (properties are the same in all 
+directions from any given point) and non-magnetic, then from Maxwell's equations we 
+can express the complex electric field vector as
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn36.gif">
+</p></center>
+
+<p>
+where <b>A</b> is the amplitude vector, <i>z</i> is the distance traveled in time
+<i>t</i> and <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/phi.gif"> is a phase offset. The angular frequency
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/omega.gif"> is
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn37.gif">
+</p></center>
+
+<p>
+where <i>f<sub><small>c</small></sub></i> is the carrier frequency (the
+frequency emitted from the antenna) and <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/lambda.gif"> is the 
+wavelength. The expression for <i>k'</i> is
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn38.gif">
+</p></center>
+
+<p>
+where <i>k</i> is the wavenumber and <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif"><sub><small><i>r</i></small></sub>
+is the relative permittivity (also called the dielectric constant) of the
+medium (<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif"><sub><small><i>r</i></small></sub> =
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif"> / <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif"><sub><small>0</small></sub>
+where <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif"> is the permittivity of the medium and 
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif"><sub><small>0</small></sub> is the permittivity of
+free space). It should be noted that
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif"><sub><small><i>r</i></small></sub> is a function of
+the frequency of the EM wave. The relative permeability
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/mu.gif"><sub><small><i>r</i></small></sub> has been assumed to be
+equal to 1 which is accurate enough for microwave frequencies.
+</p><p>
+The polarization of the electric field <b>E</b> is the direction of the amplitude
+vector <b>A</b> at some 
+instant in time. For a linearly polarized wave, the direction of <b>A</b> is fixed in one plane 
+relative to the direction of propagation.  An elliptically polarized wave has an electric 
+field consisting of two different components oriented along orthogonal axes such that
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn39.gif">
+</p></center>
+
+<p>
+resulting in the total amplitude vector <b>A</b> slowly rotating about the
+<i>z</i>-axis. If <b>A</b><sub><small><i>x</i></small></sub> =
+<b>A</b><sub><small><i>y</i></small></sub> and
+[<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/phi.gif"><sub><small>1</small></sub> - 
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/phi.gif"><sub><small>2</small></sub>] = <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/pi.gif">/2,
+then the wave becomes <i>circularly polarized</i>.
+
+</p><p>
+An EM wave interacting with a surface is called <i>scattering</i>. There are two types—surface 
+scattering and volume scattering.  Surface scattering occurs at the interface between 
+two different homogeneous media such as the atmosphere and the Earth's surface.  
+Volume scattering is the result of interaction with particles within a non-homogeneous 
+medium.
+
+</p><h3>Surface Scattering</h3>
+A smooth surface acts as a mirror, reflecting the EM wave at an angle equal and 
+opposite to the incidence angle <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/nu.gif">.
+Thus a smooth level surface is seen as black in the 
+SAR image since the echoes never reach the antenna.  The Rayleigh criterion defines a 
+surface as smooth if
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn40.gif">
+</p></center>
+
+<p>
+where <i>h</i> is the surface roughness, defined as the root-mean-square (rms) height relative 
+to a <i>perfectly</i> smooth surface, <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/lambda.gif"> is the
+wavelength of the wave and <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/nu.gif"> is the angle of 
+incidence.  Peake and Oliver (1971) modified this criterion by defining upper and lower 
+values of <i>h</i> for surfaces of intermediate roughness to obtain a smoothness criterion of 
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn41.gif">
+</p></center>
+
+<p>
+Using the Rayleigh criterion, for instance, when RADARSAT is operating at 5.3 GHz with 
+an incidence angle of 50º, level terrain with h &lt; 9 mm will show up as solid black.
+
+</p><h4>Specular Scattering</h4>
+Any returns from a smooth level surface are due to specular scattering, in which the EM 
+wave's angle of incidence is equal and opposite to the angle of reflection and the 
+transmission through the surface obeys Snell's Law:
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn42.gif">
+</p></center>
+
+<p>
+where <i>n</i> and <i>n'</i> are the index of refractions of the two mediums,
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/nu.gif"> is the angle of incidence and <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/nu.gif">'
+is the angle of refraction, shown in Figure 16.  However, the index of 
+refraction is equal to
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn43.gif">
+</p></center>
+
+<p>
+For a non-magnetic medium, <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/mu.gif"><sub><small><i>r</i></small></sub>
+= 1, and for air, <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif"><sub><small><i>r</i></small></sub>
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/approx_equals2.gif"> 1. Therefore Snell's Law becomes
+
+</p><center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn43.gif">
+</p></center>
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_fig14.gif">
+</p><p><i>Figure 16. Specular scattering mechanism.</i>
+</p></center>
+
+<p>
+For the perfect specular reflector, radar returns (backscatter) exist only near vertical 
+incidence (due to a 90º depression angle or the slope of the surface) and the reflected 
+energy is localized to a small angular region around the angle of reflection.  Even for 
+non-vertical incidence, however, backscatter can exist for a rough subsurface if the 
+radar is capable of penetrating deep enough.  Figure 16 illustrates how it is possible to 
+image a subsurface (i.e. the surface of a different medium below the top surface) that 
+would otherwise be invisible to optical sensors.
+
+</p><h4>Bragg Scattering</h4>
+For a homogeneous medium with a slightly rough surface (an rms  height variation of 
+less than <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/lambda.gif">/8), the scattering can be described using the Bragg model.
+The surface features can be described in terms of a spatial spectrum. Any section of that spectrum 
+which resonates with the incident wave will produce a strong backscatter. Thus, a 
+strong return will result from surface variation patterns at wavelengths of
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn44.gif">
+</p></center>
+
+<p>
+where the dominant return is due to the wavelength <img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/gamma_big.gif">
+for which <i>n</i>=1. At steep incidence angles, the backscatter is
+usually a combination of both specular and Bragg scattering.
+</p><p>
+The Bragg model is useful for describing the backscatter from the ocean surface.  Water 
+has a large dielectric constant making volume scattering impossible (see section 2.5.2).  
+The periodic structure of ocean waves resonate well with radar waves, showing up as 
+periodic bands on the image.  When imaging slightly rough terrain with little vegetation, 
+the Bragg model can be used to classify rock types and ages based on the surface 
+roughness.
+
+</p><h3>Volume Scattering</h3>
+Natural surfaces usually result in both surface scattering and volume scattering.  
+Natural surfaces are generally inhomogeneous, meaning they are composed of different 
+mediums.  Depending on the radar wavelength and the permittivity of the media, the EM 
+wave will penetrate a certain depth beneath the surface.  The depth at which the 
+refracted portion of the wave will be attenuated by 1/<i>e</i> of its original power at the surface 
+boundary is
+
+<center>
+<p><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/theory_eqn45.gif">
+</p></center>
+
+<p>
+where the relative dielectric constant is given by the complex number
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif"><sub><small><i>r</i></small></sub> = 
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif">' + <i>i</i><img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif">'' and
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif">''/<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif">' 
+must be less than 0.1 for the equation to be valid.
+</p><p>
+Since every type of material has its own characteristic dielectric constant
+<img src="Theory%20of%20Synthetic%20Aperture%20Radar_files/epsilon.gif"><sub><small><i>r</i></small></sub>, the media 
+are dielectrically variant which results in volume scattering. If the different media are 
+mixed together in a mostly random manner, the backscatter will be in many directions.  
+The fraction of the incident wave that is reflected back to the antenna, then, depends on 
+the shape, density and orientation of the different media as well as on the relative 
+permittivity between them.
+
+</p><h3>Complex Dielectric Constant</h3>
+The complex dielectric constant of most natural materials, when dry, is between 3 and 8 
+(for a typical radar frequency).  For such values, the penetration depth is quite large and 
+the reflectivity correspondingly small.  The dielectric constant for water, on the other 
+hand, is around 80 (for the same frequency) resulting in high reflectivity from the 
+surface and almost no penetration.  The complex dielectric constant for a material varies 
+almost linearly with the moisture content per unit volume.  The higher the moisture 
+content, the lesser the penetration depth is and the greater the reflectivity is.  The 
+observed variation in reflectivity from natural surfaces is mainly due to the moisture 
+content of the vegetation or soil.  Thus an analysis of the returns for a specific region 
+allows for classification of the type of soil or vegetation being imaged.
+
+<p>
+Since the dielectric constant depends on the frequency of the EM wave, so does the 
+reflectivity.  The higher the frequency (or the lower the wavelength), the lesser the 
+penetration is.  If one is imaging a forest, for example, using a high frequency will result 
+in surface scatter from the top of the vegetation canopy while a lower frequency would 
+allow the EM waves to penetrate the canopy, producing volume scattering from the 
+leaves, branches, trunks or ground.
+
+</p><h3>Polarization</h3>
+The polarization of an EM wave refers to the orientation of the electric field intensity 
+vector.  A SAR usually transmits a wave such that it is horizontally polarized.  Most of 
+the received energy is still horizontally polarized, however a small portion of it may be 
+<i>depolarized</i> through interaction with the terrain, creating many different components at 
+various angles of polarization.
+
+<p>
+Using a filter at the antenna, all polarizations can be screened out except for the desired 
+polarization--either horizontal or vertical.  The HH (transmit and receive horizontal) 
+configuration is called the like-polarized return while the HV (transmit horizontal and 
+receive vertical) configuration is called the cross-polarized return.  The HV return 
+requires a much higher antenna gain than the HH due to its much smaller energy.
+
+</p><p>
+The images produced by these two returns may differ due to the differences between the 
+scattering processes for each.  Depolarization, for instance, is usually explained in terms 
+of volume scatter or multiple reflections.  At short wavelengths, when the terrain can be 
+considered very rough, like- and cross-polarized images are almost identical.  At longer 
+wavelengths, however, when the terrain is considered relatively smooth, noticeable 
+differences stand out.  This has resulted in limited geological application in identifying 
+rock types.
+
+</p><p>
+Some of the new polarimetric SARs are capable of transmitting and receiving both 
+horizontally and vertically thus allowing HH, HV, VH and VV returns all at the same 
+time.  Mathematical analysis of these returns can create a geometric basis which can be 
+used to synthesize the image for <i>any</i> possible transmit/receive polarization for the entire 
+360º spectrum. Certain objects, especially those man-made, have been found to stand 
+out at a specific transmit/receive polarization, thus making their detection easier in the 
+future.  
+
+</p><h3>Speckle</h3>
+All SAR images inherently contain noise, whether due to the hardware or to stray 
+radiation from other sources or to the phenomenon known as speckle.  Speckle 
+manifests itself in the image as the apparently random placement of pixels which are 
+conspicuously bright or dark.  It arises from the requirement that a SAR image be 
+formed using <i>coherent</i> radar--radar that can provide a Doppler resolution.
+
+<p>
+A single resolution cell, or pixel, corresponds to an area of a certain size on the ground.  
+Within that area, there exist many different targets, or scatterers, which provide the 
+surface texture necessary for backscatter.  Even though the area may be something on 
+the order of 15 x 15 metres, the wavelength of the EM wave may be only several 
+centimetres--capable of interacting with each individual scatterer.  These multiple 
+interactions produce echoes which interfere with each other in either a constructive or 
+destructive manner.  Constructive interference results in a strong return signal and a 
+bright pixel in the image.  Destructive interference results in a weak return signal and 
+dark pixel in the image.
+
+</p></font><p><font size="2" face="Verdana, Arial, Helvetica">
+By interpreting speckle as a random noise effect, various methods can be used to 
+reduce speckle.  Neighbouring pixels can be averaged together to spread the aberration 
+out at the cost of  resolution.  This is known as a multiple look image. 
+<a href="http://www.geo.uzh.ch/products/EarthView.html"> EarthView</a> provides a median filter, in which you can specify the size of the window of pixels to 
+average, and a LUM Filter which uses a completely different rank-order-based
+technique. <a href="http://www.geo.uzh.ch/products/EarthView.html"> EarthView</a> provides other filters for speckle reduction
+(Lee, Frost, MAP and Refined MAP) which smooth the data without blurring 
+it as the median filter does.
+
+</font>
+
+</p></font></font></td>
+<td width="10"></td>
+</tr></tbody></table>
+
+<!--CONTENT_END-->
+
+<p>
+</p><center>
+<font size="1" face="Verdana, Arial, Helvetica">
+<big>© 1997 Atlantis Scientific Inc.  All rights reserved.</big> <br>
+</font>
+</center>
+<br>
+
+
+</body></html>

@@ -1,0 +1,352 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Tangerine:400,700);
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	
+}
+/*General*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-family: 'Oswald', sans-serif;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-top: 30px;
+}
+h2 {
+	margin: 30px 0;
+}
+/* navbar items */
+.nav-item
+{
+    text-transform:uppercase;
+    font-weight:bold;
+}
+/* navbar active items */
+.active
+{
+   background-color: #b6124a;border-radius:5px;padding:3px !important;padding-left:3px !important;
+} 
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: magenta !important;
+}
+  
+.section-title{
+	margin-bottom:20px;
+	}
+/* Header for index page */
+#head {
+	background: #181015 url('../images/bg_header.jpg') no-repeat;
+	background-size: cover;
+	min-height: 520px;
+	max-width:1200px;
+	margin:auto;
+	text-align: center;
+	color: black;
+	font-weight: 300;
+	position: relative;
+	border-top:2px solid #b6124a;
+	border-bottom: 2px solid #b6124a;
+	background-position-x: center;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+
+}
+
+/* Header for seconday pages */
+
+   #head.secondary {
+	height: 130px;
+	min-height: 130px;
+	padding-top: 0px;
+	background: #181015 url(../images/bg-header.jpg) 10px -90px no-repeat;
+	/*background: #b6124a;*/
+	background-size:100% auto;
+	text-align:left;
+	color:White;
+}
+
+
+.panel {
+	margin-bottom: 0px;
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 0px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	
+}
+.panel-body{
+	padding: 0px;
+}
+
+/* Footer panels */
+.panel-body-top{
+padding:0px;height:300px;
+}
+.panel-body-bottom{
+padding:10px;height:60px;font-size:small;
+}
+
+ul, .list.custom-list ul {
+margin: 0 0 11px;
+list-style-type: none;
+padding-left:10px;
+}
+.list.custom-list ul li {
+margin: 0;
+padding: 4px 0 5px 30px;
+border-top: 1px solid #f2f2f2;
+position: relative;
+background: url(../images/arrow.png) no-repeat 0 11px;
+}
+
+.list.custom-list ul li a {
+font: 14px/1.2em 'Roboto', sans-serif;
+color: #b6124a;
+text-transform: none;
+display: inline;
+position: relative;
+}
+
+.jumbotron {
+	background-color: #E0E0E0;
+}
+
+#social {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#social .wrapper {
+	width: 340px;
+	margin: 0 auto;
+}
+
+footer {
+	border-top: 1px solid #e5e5e5;
+	background: #ECECEC;
+	margin-top:40px;
+}
+.social {
+	margin: 20px 0;
+}
+.social a {
+	font-size: 32px;
+	margin: 0 10px;
+	color: #8c8c8c;
+}
+.social a:hover {
+	color: #b6124a;
+}
+/* Footer */
+.footer1 {
+	background: #fff;
+	padding: 30px 0 0 0;
+	font-size: 12px;
+	color: #999;
+}
+.footer1 a {
+	color: #ccc;
+}
+.footer1 a:hover {
+	color: #fff;
+}
+.footer1 .panel {
+	margin-bottom: 30px;
+}
+.footer1 .panel-title {
+	font-size: 17px;
+	font-weight: bold;
+	color: #ccc;
+	margin: 0 0 20px;
+}
+.footer1 .entry-meta {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 35px 0;
+	padding: 2px 0;
+	color: #888888;
+	font-size: 12px;
+	font-size: 0.75rem;
+}
+.footer1 .entry-meta a {
+	color: #333333;
+}
+.footer1 .entry-meta .meta-in {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0;
+}
+.follow-me-icons {
+	font-size: 30px;
+}
+.follow-me-icons i {
+	float: left;
+	margin: 0 10px 0 0;
+	color: #b6124a;
+}
+.footer2 {
+	background: #222;
+	padding: 15px 0;
+	color: #aaa;
+	font-size: 16px;
+}
+.footer2 a {
+	color: #aaa;
+}
+.footer2 a:hover {
+	color: #fff;
+}
+.footer2 p {
+	margin: 0;color:#fff;
+}
+.panel-simplenav {
+	margin-left: -5px;
+}
+.panel-simplenav a {
+	margin: 0 5px;
+}
+
+.contact ul {
+	padding: 0px;
+}
+.contact ul li {
+	margin-bottom: 10px;
+	list-style: none;
+}
+footer ul li {
+	list-style: none;
+}
+
+.btn {
+	background: #b6124a;
+	color: #fff;
+}
+.footer2 a {
+	padding: 4px 8px;
+}
+
+/* Tutoirals h3*/
+
+.borderBottom{
+    border-bottom:3px solid purple;padding-bottom:10px;color:Green;margin-bottom:20px;margin-top:20px;
+} 
+
+/* Tutoirals h4*/
+
+.borderLeft
+{border-left:5px solid purple;padding-left:6px;color:green;margin-bottom:20px;margin-top:20px;
+ 
+ } 
+table{margin-top:10px;margin-bottom:10px;}  
+
+.rowBuffer{
+margin-top:20px;background-color:Maroon !important;color:White !important;
+}
+
+/* Code for well */
+
+.well
+{
+    padding:10px;margin:20px;border-left:3px solid grey !important;border-radius:5px;
+}
+
+/*Cards for main pages - Sep 2018*/
+
+* {
+    box-sizing: border-box
+  }
+  
+  /* From Header to Footer */
+
+ #mainPart {
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+ .mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin: 1rem;
+    background: white;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+    border-top:maroon 5px solid;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all .2s linear;
+  }
+  
+  
+  .card h3 {
+    text-align: center;
+    padding: 1.5rem 2.5rem;
+    background-image: linear-gradient(20deg, orange 20%, #fffacd 80%);
+    margin: 0 0 2rem 0;
+    font-size: 2.5rem;
+    font-weight:bold;
+    color: maroon;
+  }
+    .card h4 {
+    text-align: center;
+    padding: 1.5rem 2.5rem;
+    background-image: linear-gradient(20deg, orange 20%, #fffacd 80%);
+    margin: 0 0 2rem 0;
+    font-size: 1.3rem;
+    font-weight:bold;
+    color: maroon;
+  }
+  
+  .card  p {
+    padding: 0 2.5rem 2.5rem;
+    margin: 0;
+  }
+  
+
+  .card:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+    transform: translate3D(0, -2px, 0);
+  }
+  
+  .card button
+  {display:block;margin-left:auto;margin-right:auto;background-color:Maroon;color:White;padding:10px;border-radius:10px;border-shadow:2px 2px 5px grey;
+  }
+  
+    
+    @media screen and (max-width: 576px) {
+    .card {
+      flex: 1 1 calc(100% - 2rem);
+   }
+    .navbar-collapse ul 
+    {
+    margin-top:5px;    
+	text-align: left;
+	margin-right: 0px;
+	} 
+ 
+ }
+  
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+    .card {
+      flex: 1 1 calc(50% - 2rem);
+    }
+   .navbar-nav
+   {
+       transform:scale(0.9);}
+         
+  }
+  
+  @media screen and (min-width: 992px) {
+    .card {
+      flex: 1 1 calc(33% - 2rem);
+    }
+  }
+
+  

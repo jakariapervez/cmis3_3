@@ -1,0 +1,381 @@
+id,haor_id,name,start_chainage,finish_chainage,length,volume,vent_no,dpp_cost,worktype_id,contract_status,work_status
+376,13,Resectioning of Submersible Embankment along the left bank of Bashira River in between km 2.420 to km 9.760,2.42,9.76,7,,,,2,HAVE_NO_CONTRACT,OG
+330,13,Sutki River,13.1,17.6,4.5,0,0,0,3,HAVE_NO_CONTRACT,OG
+329,13,Ratna River,0,10,8.614,0,0,0,4,HAVE_NO_CONTRACT,OG
+328,13,Purohogun khal,0,2.428,2.428,0,0,0,3,HAVE_NO_CONTRACT,OG
+327,13,Chatal beel Khal,0,5.217,5.217,0,0,0,3,HAVE_NO_CONTRACT,OG
+326,13,Soay beel khal,0.094,3.379,3.285,0,0,0,3,HAVE_NO_CONTRACT,OG
+325,13,Salukadar Khal,0,2.428,2.428,0,0,0,3,HAVE_NO_CONTRACT,OG
+324,13,Islampur Khal,0.157,0.791,0.634,0,0,0,3,HAVE_NO_CONTRACT,OG
+323,13,Rajendrapur Khal,0,4.327,4.327,0,0,0,3,HAVE_NO_CONTRACT,OG
+322,13,Chhotokatari Khal,0.184,3.448,3.264,0,0,0,3,HAVE_NO_CONTRACT,OG
+321,13,Chargaowdair Khal,0.17,3.206,3.036,0,0,0,3,HAVE_NO_CONTRACT,OG
+59,13,4-Vent Regulator at Km7.61 in Mokhar Haor Project ,81.2,81.2,0,0,4,0,5,HAVE_NO_CONTRACT,OG
+12,13,Submersible Embankment at Mokhar Haor in between km 31.600 to 81.749=23.815,31.6,81.74,23.815,256912.018,,,2,HAVE_NO_CONTRACT,OG
+387,12,Construction of 2 vent regulator (1.50X1.80),-0.002,,,,,,5,HAVE_NO_CONTRACT,OG
+386,12,Construction pf New-regulator 1 vent (1.50m X 1.80 m),,,,,1,,5,HAVE_NO_CONTRACT,OG
+385,12,Re-excavation of Piyan River from Km 19.000 to 55.575 total 36.575,19,55.575,,,,,4,HAVE_NO_CONTRACT,OG
+384,12,XXX,,,,,,,9,HAVE_NO_CONTRACT,OG
+383,12,XXXX,,,,,,,3,HAVE_NO_CONTRACT,OG
+382,23,Consruction of 4.00 m wide causeway,,,,,,,6,HAVE_NO_CONTRACT,OG
+381,23,Cnstruction of 2-Vent Regulator,,,,,2,,5,HAVE_NO_CONTRACT,OG
+380,23,Re-excavation of Bashira River in between km 0.000 to 20.000=17.400,0,20,17.399,,,,4,HAVE_NO_CONTRACT,OG
+379,23,Re-excavation of Matikata Khal from km 0.000 to 2.295,0,2.295,2.29,,,,3,HAVE_NO_CONTRACT,OG
+378,23,Construction of New Embankment along the left bank of Bitangal khal in between km 10.000 to 17.000 =7.000,10,17,17,,,,1,HAVE_NO_CONTRACT,OG
+377,23,Resectioning of Submersible Embankment along the left bank of Bashira River in between km 2.420 to km 9.760,2.42,9.76,7,,,,2,HAVE_NO_CONTRACT,OG
+375,5,Bata  Khal from km 0.000 to km 2.790,0,2.79,2.79,,,,3,HAVE_NO_CONTRACT,OG
+374,14,Construction of Submersible Embankment in between km 12.400 to km 23.260,12.4,23.26,10.857,109155.299,,,2,HAVE_NO_CONTRACT,OG
+373,14,Submersible embankment in between km 0.020 to km 12.400=11.750,0.02,12.4,11.75,121987.998,,,2,HAVE_NO_CONTRACT,OG
+372,3,Rauli Nadi,0,2.3,2.3,0,0,0,4,HAVE_NO_CONTRACT,OG
+371,3,Dora Nadi,0,3.2,3.2,0,0,0,4,HAVE_NO_CONTRACT,OG
+370,3,Baur Khal,0,0.6,0.6,0,0,0,3,HAVE_NO_CONTRACT,OG
+369,7,Maora Khal,0,1.7,1.7,0,0,0,3,HAVE_NO_CONTRACT,OG
+368,7,Chouganga Khal,0,0.2,0.2,0,0,0,3,HAVE_NO_CONTRACT,OG
+367,7,Burimara Khal,0,0.5,0.5,0,0,0,3,HAVE_NO_CONTRACT,OG
+366,7,Baduti Khal,0,1,1,0,0,0,3,HAVE_NO_CONTRACT,OG
+365,7,Bamuna Khal,0,1.5,1.5,0,0,0,3,HAVE_NO_CONTRACT,OG
+364,7,Kursi Khal,0,2.9,2.9,0,0,0,3,HAVE_NO_CONTRACT,OG
+363,7,Kanala Khal,0,0.6,0.6,0,0,0,3,HAVE_NO_CONTRACT,OG
+362,7,Chandrapur Khal,0,0.7,0.7,0,0,0,3,HAVE_NO_CONTRACT,OG
+361,7,Sajna Khal,0,1,1,0,0,0,3,HAVE_NO_CONTRACT,OG
+360,10,Mozilla Khal,0,1.78,1.78,0,0,0,3,HAVE_NO_CONTRACT,OG
+359,10,Mogar Khal,0,0.15,0.15,0,0,0,3,HAVE_NO_CONTRACT,OG
+358,6,Suti Nadi,2.527,17.766,15.239,0,0,0,4,HAVE_NO_CONTRACT,OG
+357,6,Kalna,0.76,1.94,1.18,0,0,0,3,HAVE_NO_CONTRACT,OG
+356,6,Goalkhali Khal,0.48,2.58,2.1,0,0,0,3,HAVE_NO_CONTRACT,OG
+355,6,Phuleswari Khal,0.18,3.96,3.78,0,0,0,3,HAVE_NO_CONTRACT,OG
+354,4,Gobra Khal,0,3,3,0,0,0,3,HAVE_NO_CONTRACT,OG
+353,4,Saitan Khal,0,3,3,0,0,0,3,HAVE_NO_CONTRACT,OG
+352,4,Islam Beel Khal,0,4.5,4.5,0,0,0,3,HAVE_NO_CONTRACT,OG
+351,4,Banni Link Khal,0,1.5,1.5,0,0,0,3,HAVE_NO_CONTRACT,OG
+350,4,Bir Khal,0,2.4,2.4,0,0,0,3,HAVE_NO_CONTRACT,OG
+349,4,Banni Khal-2,0,2.9,2.9,0,0,0,3,HAVE_NO_CONTRACT,OG
+348,4,Banni Khal-1,0,2.6,2.6,0,0,0,3,HAVE_NO_CONTRACT,OG
+347,4,Rajapur Khal,0,2.8,2.8,0,0,0,3,HAVE_NO_CONTRACT,OG
+346,4,Dagar Khal,1.2,3.2,2,0,0,0,3,HAVE_NO_CONTRACT,OG
+345,4,Baraia Khal,0,2.7,2.7,0,0,0,3,HAVE_NO_CONTRACT,OG
+344,4,Khurma Khal,0,9,9,0,0,0,3,HAVE_NO_CONTRACT,OG
+343,4,Kolma Khal,3.6,7,3.4,0,0,0,3,HAVE_NO_CONTRACT,OG
+342,4,Dahar Gang,0,7,7,0,0,0,3,HAVE_NO_CONTRACT,OG
+341,4,Undani Khal,0,4,4,0,0,0,3,HAVE_NO_CONTRACT,OG
+340,4,Rui Beel Khal,0,3.5,3.5,0,0,0,3,HAVE_NO_CONTRACT,OG
+339,4,Agunia Khal,0,8,8,0,0,0,3,HAVE_NO_CONTRACT,OG
+338,4,Dharam khal,0,1.1,1.1,0,0,0,3,HAVE_NO_CONTRACT,OG
+337,12,Dariabaz Khal,0,1.5,1.5,0,0,0,3,HAVE_NO_CONTRACT,OG
+336,12,Puknarai Khal,0,1.56,1.56,0,0,0,3,HAVE_NO_CONTRACT,OG
+335,12,Juringa Khal,0,1.5,1.5,0,0,0,3,HAVE_NO_CONTRACT,OG
+334,11,Ukhra Khal,0.11,2.043,1.933,0,0,0,3,HAVE_NO_CONTRACT,OG
+333,11,Chapri Khal,0.28,2.59,2.31,0,0,0,3,HAVE_NO_CONTRACT,OG
+332,11,Ichamati Khal,0.072,1.25,1.178,0,0,0,3,HAVE_NO_CONTRACT,OG
+331,11,Narsua River,0,6.225,6.225,0,0,0,3,HAVE_NO_CONTRACT,OG
+320,9,Bantai River,0,1.65,1.65,0,0,0,4,HAVE_NO_CONTRACT,OG
+319,9,Shankir Khal,0.41,8.995,8.585,0,0,0,3,HAVE_NO_CONTRACT,OG
+318,2,Atoplal River,0,7.113,7.11,0,0,0,4,HAVE_NO_CONTRACT,OG
+317,2,Berachapra River,0,15.82,15.82,0,0,0,4,HAVE_NO_CONTRACT,OG
+316,2,Neora Khal,0.12,2.635,2.52,0,0,0,3,HAVE_NO_CONTRACT,OG
+315,2,Khaiyar Khal,0.495,8.405,7.91,0,0,0,3,HAVE_NO_CONTRACT,OG
+314,2,Nandir Khal,0,5.985,5.99,0,0,0,3,HAVE_NO_CONTRACT,OG
+313,2,Markhali Khal,1.01,4.12,3.11,0,0,0,3,HAVE_NO_CONTRACT,OG
+312,2,Gokhra Khal,0.185,0.91,0.73,0,0,0,3,HAVE_NO_CONTRACT,OG
+311,2,Bera Khal,0.52,2.03,1.51,0,0,0,3,HAVE_NO_CONTRACT,OG
+310,2,Pangair Dair Khal,0.08,4.36,4.28,0,0,0,3,HAVE_NO_CONTRACT,OG
+309,8,Beri Gang,0,3.56,3.56,0,0,0,4,HAVE_NO_CONTRACT,OG
+308,8,Kurigai Gang,0,8.38,8.38,0,0,0,4,HAVE_NO_CONTRACT,OG
+307,8,Kata Khali Khal,0.2,4,3.8,0,0,0,3,HAVE_NO_CONTRACT,OG
+306,8,Samarbari Khal,0,3.99,3.99,0,0,0,3,HAVE_NO_CONTRACT,OG
+305,8,Mahinhandra Khal,1,1.9,0.9,0,0,0,3,HAVE_NO_CONTRACT,OG
+304,8,Kata Khal,0,0.6,0.6,0,0,0,3,HAVE_NO_CONTRACT,OG
+303,14,Jalalpur Khal,0.09,0.457,0.367,0,0,0,3,HAVE_NO_CONTRACT,OG
+302,14,Nabinpur Khal,4,6.8,2.8,0,0,0,3,HAVE_NO_CONTRACT,OG
+301,14,Maharkona Khal,0.3,3.3,3,0,0,0,3,HAVE_NO_CONTRACT,OG
+300,14,Naluar Khal,0.2,0.8,0.6,0,0,0,3,HAVE_NO_CONTRACT,OG
+299,14,Lalpur Khal,0.41,4.4,3.99,0,0,0,3,HAVE_NO_CONTRACT,OG
+298,1,Old Singua River,7.3,14.4,7.1,0,0,0,4,HAVE_NO_CONTRACT,OG
+297,1,Diga Nadi,2.5,8.1,5.6,0,0,0,4,HAVE_NO_CONTRACT,OG
+296,1,Suti Khal,0,6.1,6.1,0,0,0,3,HAVE_NO_CONTRACT,OG
+295,1,Baniajan Khal,0.16,7.06,6.9,0,0,0,3,HAVE_NO_CONTRACT,OG
+294,1,Dampara Khal,0.04,3.6,3.56,0,0,0,3,HAVE_NO_CONTRACT,OG
+293,1,Karpasha Khal,0.1,1.615,1.515,0,0,0,3,HAVE_NO_CONTRACT,OG
+292,1,Hajirkhali Khal,0.175,1.81,1.635,0,0,0,3,HAVE_NO_CONTRACT,OG
+290,5,Goradar Khal,0,2.38,2.38,0,0,0,3,HAVE_NO_CONTRACT,OG
+289,5,Bamon Khal,0,2.225,2.225,0,0,0,3,HAVE_NO_CONTRACT,OG
+288,5,Manikkhali Khal,0.18,4.655,4.475,0,0,0,3,HAVE_NO_CONTRACT,OG
+287,5,Diakul Khal from  km 1.710 to m  4.690=2.980,1.7,4.69,2.99,0,0,0,3,HAVE_NO_CONTRACT,OG
+286,12,Irrigation Inlet No-131 in  Dhakua Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+285,12,Irrigation Inlet No-130 in  Dhakua Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+284,12,Irrigation Inlet No-129 in  Dhakua Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+283,12,Irrigation Inlet No-128 in  Dhakua Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+282,12,Irrigation Inlet No-127 in  Dhakua Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+281,12,Irrigation Inlet No-126 in  Dhakua Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+280,12,Irrigation Inlet No-125 in  Dhakua Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+279,12,Irrigation Inlet No-124 in  Dhakua Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+278,12,Irrigation Inlet No-123 in  Dhakua Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+277,3,Irrigation Inlet No-122 in  Jaliar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+276,3,Irrigation Inlet No-121 in  Jaliar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+275,3,Irrigation Inlet No-120 in  Jaliar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+274,3,Irrigation Inlet No-119 in  Jaliar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+273,4,Irrigation Inlet No-118 in  Dharmapasha Rui Beel Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+272,4,Irrigation Inlet No-117 in  Dharmapasha Rui Beel Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+271,4,Irrigation Inlet No-116 in  Dharmapasha Rui Beel Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+270,4,Irrigation Inlet No-115 in  Dharmapasha Rui Beel Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+269,4,Irrigation Inlet No-114 in  Dharmapasha Rui Beel Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+268,4,Irrigation Inlet No-113 in  Dharmapasha Rui Beel Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+267,4,Irrigation Inlet No-112 in  Dharmapasha Rui Beel Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+266,4,Irrigation Inlet No-111 in  Dharmapasha Rui Beel Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+265,4,Irrigation Inlet No-110 in  Dharmapasha Rui Beel Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+264,4,Irrigation Inlet No-109 in  Dharmapasha Rui Beel Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+263,4,Irrigation Inlet No-108 in  Dharmapasha Rui Beel Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+262,4,Irrigation Inlet No-107 in  Dharmapasha Rui Beel Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+261,4,Irrigation Inlet No-106 in  Dharmapasha Rui Beel Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+260,4,Irrigation Inlet No-105 in  Dharmapasha Rui Beel Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+259,4,Irrigation Inlet No-104 in  Dharmapasha Rui Beel Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+258,11,Irrigation Inlet No-103 in  Ganesh Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+257,11,Irrigation Inlet No-102 in  Ganesh Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+256,13,Irrigation Inlet No-101 in  Mokhar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+255,13,Irrigation Inlet No-100 in  Mokhar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+254,13,Irrigation Inlet No-99 in  Mokhar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+253,13,Irrigation Inlet No-98 in  Mokhar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+252,13,Irrigation Inlet No-97 in  Mokhar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+251,13,Irrigation Inlet No-96 in  Mokhar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+250,13,Irrigation Inlet No-95 in  Mokhar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+249,13,Irrigation Inlet No-94 in  Mokhar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+248,13,Irrigation Inlet No-93 in  Mokhar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+247,13,Irrigation Inlet No-92 in  Mokhar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+246,13,Irrigation Inlet No-91 in  Mokhar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+245,13,Irrigation Inlet No-90 in  Mokhar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+244,13,Irrigation Inlet No-89 in  Mokhar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+243,13,Irrigation Inlet No-88 in  Mokhar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+242,13,Irrigation Inlet No-87 in  Mokhar Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+241,9,Irrigation Inlet No-86 in  Dakhshiner Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+240,9,Irrigation Inlet No-85 in  Dakhshiner Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+239,9,Irrigation Inlet No-84 in  Dakhshiner Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+238,9,Irrigation Inlet No-83 in  Dakhshiner Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+237,9,Irrigation Inlet No-82 in  Dakhshiner Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+236,9,Irrigation Inlet No-81 in  Dakhshiner Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+235,9,Irrigation Inlet No-80 in  Dakhshiner Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+234,9,Irrigation Inlet No-79 in  Dakhshiner Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+233,9,Irrigation Inlet No-78 in  Dakhshiner Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+232,9,Irrigation Inlet No-77 in  Dakhshiner Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+231,9,Irrigation Inlet No-76 in  Dakhshiner Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+230,9,Irrigation Inlet No-75 in  Dakhshiner Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+229,9,Irrigation Inlet No-74 in  Dakhshiner Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+228,9,Irrigation Inlet No-73 in  Dakhshiner Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+227,9,Irrigation Inlet No-72 in  Dakhshiner Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+226,10,Irrigation Inlet No-71 in  Chatal Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+225,10,Irrigation Inlet No-70 in  Chatal Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+224,10,Irrigation Inlet No-69 in  Chatal Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+223,10,Irrigation Inlet No-68 in  Chatal Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+222,7,Irrigation Inlet No-67 in  Badla Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+221,7,Irrigation Inlet No-66 in  Badla Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+220,7,Irrigation Inlet No-65 in  Badla Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+219,7,Irrigation Inlet No-64 in  Badla Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+218,7,Irrigation Inlet No-63 in  Badla Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+217,7,Irrigation Inlet No-62 in  Badla Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+216,2,Irrigation Inlet No-61 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+215,2,Irrigation Inlet No-60 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+214,2,Irrigation Inlet No-59 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+213,2,Irrigation Inlet No-58 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+212,2,Irrigation Inlet No-57 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+211,2,Irrigation Inlet No-56 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+210,2,Irrigation Inlet No-55 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+209,2,Irrigation Inlet No-54 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+208,2,Irrigation Inlet No-53 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+207,2,Irrigation Inlet No-52 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+206,2,Irrigation Inlet No-51 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+205,2,Irrigation Inlet No-50 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+204,2,Irrigation Inlet No-49 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+203,2,Irrigation Inlet No-48 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+202,2,Irrigation Inlet No-47 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+201,2,Irrigation Inlet No-46 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+200,2,Irrigation Inlet No-45 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+199,2,Irrigation Inlet No-44 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+198,2,Irrigation Inlet No-43 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+197,2,Irrigation Inlet No-42 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+196,2,Irrigation Inlet No-41 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+195,2,Irrigation Inlet No-40 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+194,2,Irrigation Inlet No-39 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+193,2,Irrigation Inlet No-38 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+192,2,Irrigation Inlet No-37 in  Naogaon Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+191,14,Irrigation Inlet No-36 in  Noapara Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+190,14,Irrigation Inlet No-35 in  Noapara Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+189,14,Irrigation Inlet No-34 in  Noapara Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+188,14,Irrigation Inlet No-33 in  Noapara Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+187,14,Irrigation Inlet No-32 in  Noapara Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+186,14,Irrigation Inlet No-31 in  Noapara Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+185,14,Irrigation Inlet No-30 in  Noapara Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+184,14,Irrigation Inlet No-29 in  Noapara Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+183,14,Irrigation Inlet No-28 in  Noapara Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+182,14,Irrigation Inlet No-27 in  Noapara Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+181,14,Irrigation Inlet No-26 in  Noapara Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+180,14,Irrigation Inlet No-25 in  Noapara Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+179,14,Irrigation Inlet No-24 in  Noapara Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+178,14,Irrigation Inlet No-23 in  Noapara Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+177,1,Irrigation Inlet No-22 in  Boro Haor Project,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+176,1,Irrigation Inlet No-21 in  Boro Haor Project,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+175,1,Irrigation Inlet No-20 in  Boro Haor Project,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+174,1,Irrigation Inlet No-19 in  Boro Haor Project,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+173,1,Irrigation Inlet No-18 in  Boro Haor Project,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+172,1,Irrigation Inlet No-17 in  Boro Haor Project,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+171,1,Irrigation Inlet No-16 in  Boro Haor Project,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+170,8,Irrigation Inlet No-15 in  Nunnir Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+169,8,Irrigation Inlet No-14 in  Nunnir Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+168,8,Irrigation Inlet No-13 in  Nunnir Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+167,8,Irrigation Inlet No-12 in  Nunnir Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+166,8,Irrigation Inlet No-11 in  Nunnir Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+165,8,Irrigation Inlet No-10 in  Nunnir Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+164,8,Irrigation Inlet No-9 in  Nunnir Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+163,8,Irrigation Inlet No-8 in  Nunnir Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+162,8,Irrigation Inlet No-7 in  Nunnir Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+161,8,Irrigation Inlet No-6 in  Nunnir Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+160,8,Irrigation Inlet No-5 in  Nunnir Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+159,8,Irrigation Inlet No-4 in  Nunnir Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+158,8,Irrigation Inlet No-3 in  Nunnir Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+157,8,Irrigation Inlet No-2 in  Nunnir Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+156,8,Irrigation Inlet No-1 in  Nunnir Haor Project ,0,0,0,0,0,0,7,HAVE_NO_CONTRACT,OG
+155,12,Box Sluice at Km55.4 in Dhakua Haor Project ,55.4,55.4,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+154,12,Box Sluice at Km53.78 in Dhakua Haor Project ,53.78,53.78,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+153,12,Box Sluice at Km50.74 in Dhakua Haor Project ,50.74,50.74,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+152,12,Box Sluice at Km28.2 in Dhakua Haor Project ,28.2,28.2,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+151,12,Box Sluice at Km19.93 in Dhakua Haor Project ,19.93,19.93,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+150,12,Box Sluice at Km14.72 in Dhakua Haor Project ,14.72,14.72,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+149,3,Box Sluice at Km12.64 in Jaliar Haor Project ,12.64,12.64,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+148,3,Box Sluice at Km1 in Jaliar Haor Project ,1,1,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+147,3,Box Sluice at Km24.7 in Jaliar Haor Project ,24.7,24.7,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+146,3,Box Sluice at Km6.63 in Jaliar Haor Project ,6.63,6.63,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+145,3,Box Sluice at Km4.73 in Jaliar Haor Project ,4.73,4.73,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+144,3,Box Sluice at Km3.56 in Jaliar Haor Project ,3.56,3.56,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+143,3,Box Sluice at Km3.45 in Jaliar Haor Project ,3.45,3.45,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+142,4,Box Sluice at Km48.05 in Dharmapasha Rui Beel Project ,48.05,48.05,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+141,4,Box Sluice at Km43.13 in Dharmapasha Rui Beel Project ,43.13,43.13,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+140,4,Box Sluice at Km40.66 in Dharmapasha Rui Beel Project ,40.66,40.66,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+139,4,Box Sluice at Km33.08 in Dharmapasha Rui Beel Project ,33.08,33.08,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+138,4,Box Sluice at Km7.8 in Dharmapasha Rui Beel Project ,7.8,7.8,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+137,4,Box Sluice at Km1.75 in Dharmapasha Rui Beel Project ,1.75,1.75,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+136,11,Box Sluice at Km24.58 in Ganesh Haor Project ,24.58,24.58,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+135,11,Box Sluice at Km15.16 in Ganesh Haor Project ,15.16,15.16,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+134,13,Box Sluice at Km81.03 in Mokhar Haor Project ,81.03,81.03,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+133,13,Box Sluice at Km79.75 in Mokhar Haor Project ,79.75,79.75,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+132,13,Box Sluice at Km79.24 in Mokhar Haor Project ,79.24,79.24,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+131,13,Box Sluice at Km77.61 in Mokhar Haor Project ,77.61,77.61,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+130,13,Box Sluice at Km76.38 in Mokhar Haor Project ,76.38,76.38,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+129,13,Box Sluice at Km70.5 in Mokhar Haor Project ,70.5,70.5,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+128,13,Box Sluice at Km63.25 in Mokhar Haor Project ,63.25,63.25,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+127,13,Box Sluice at Km60.35 in Mokhar Haor Project ,60.35,60.35,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+126,13,Box Sluice at Km50.01 in Mokhar Haor Project ,50.01,50.01,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+125,9,Box Sluice at Km24.23 in Dakhshiner Haor Project ,24.23,24.23,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+124,10,Box Sluice at Km2.74 in Chatal Haor Project ,2.74,2.74,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+123,7,Box Sluice at Km23.6 in Badla Haor Project ,23.6,23.6,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+122,7,Box Sluice at Km22.3 in Badla Haor Project ,22.3,22.3,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+121,7,Box Sluice at Km19.5 in Badla Haor Project ,19.5,19.5,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+120,2,Box Sluice at Km18.24 in Naogaon Haor Project ,18.24,18.24,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+119,2,Box Sluice at Km13.7 in Naogaon Haor Project ,13.7,13.7,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+118,2,Box Sluice at Km11.21 in Naogaon Haor Project ,11.21,11.21,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+117,2,Box Sluice at Km9.39 in Naogaon Haor Project ,9.39,9.39,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+116,2,Box Sluice at Km6.65 in Naogaon Haor Project ,6.65,6.65,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+115,14,Box Sluice at Km11.17 in Noapara Haor Project ,11.17,11.17,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+114,14,Box Sluice at Km10.48 in Noapara Haor Project ,10.48,10.48,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+113,1,Box Sluice at Km14 in Boro Haor Project,14,14,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+112,8,Box Sluice at Km7.74 in Nunnir Haor Project ,7.74,7.74,0,0,0,0,9,HAVE_NO_CONTRACT,OG
+111,12,6m causeway at km 18.56 in Dhakua Haor Project ,18.56,18.56,0,0,6,0,6,HAVE_NO_CONTRACT,OG
+110,12,4m causeway at km 16.33 in Dhakua Haor Project ,16.33,16.33,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+109,12,4m causeway at km 4.93 in Dhakua Haor Project ,4.93,4.93,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+108,3,6m causeway at km 12.3 in Jaliar Haor Project ,12.3,12.3,0,0,6,0,6,HAVE_NO_CONTRACT,OG
+107,3,4m causeway at km 9.24 in Jaliar Haor Project ,9.24,9.24,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+106,3,4m causeway at km 6.33 in Jaliar Haor Project ,6.33,6.33,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+105,3,4m causeway at km 3.46 in Jaliar Haor Project ,3.46,3.46,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+104,3,4m causeway at km 1.54 in Jaliar Haor Project ,1.54,1.54,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+103,3,4m causeway at km 0.4 in Jaliar Haor Project ,0.4,0.4,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+102,3,4m causeway at km 0.1 in Jaliar Haor Project ,0.1,0.1,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+101,4,6m causeway at km 38.74 in Dharmapasha Rui Beel Project ,38.74,38.74,0,0,6,0,6,HAVE_NO_CONTRACT,OG
+100,4,4m causeway at km 27.77 in Dharmapasha Rui Beel Project ,27.77,27.77,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+99,4,4m causeway at km 26.98 in Dharmapasha Rui Beel Project ,26.98,26.98,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+98,4,4m causeway at km 22.27 in Dharmapasha Rui Beel Project ,22.27,22.27,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+97,4,4m causeway at km 12.56 in Dharmapasha Rui Beel Project ,12.56,12.56,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+96,4,4m causeway at km 3.1 in Dharmapasha Rui Beel Project ,3.1,3.1,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+95,13,6m causeway at km 70.6 in Mokhar Haor Project ,70.6,70.6,0,0,6,0,6,HAVE_NO_CONTRACT,OG
+94,13,6m causeway at km 69.7 in Mokhar Haor Project ,69.7,69.7,0,0,6,0,6,HAVE_NO_CONTRACT,OG
+93,13,4m causeway at km 42.78 in Mokhar Haor Project ,42.78,42.78,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+92,13,4m causeway at km 17.28 in Mokhar Haor Project ,17.28,17.28,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+91,6,4m causeway at km 9.84 in Suniar Haor Project ,9.84,9.84,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+90,6,4m causeway at km 17.71 in Suniar Haor Project ,17.71,17.71,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+89,9,6m causeway at km 23.46 in Dakhshiner Haor Project ,23.46,23.46,0,0,6,0,6,HAVE_NO_CONTRACT,OG
+88,9,6m causeway at km 12.38 in Dakhshiner Haor Project ,12.38,12.38,0,0,6,0,6,HAVE_NO_CONTRACT,OG
+87,9,4m causeway at km 0.02 in Dakhshiner Haor Project ,0.02,0.02,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+86,7,4m causeway at km 7.15 in Badla Haor Project,7.15,7.15,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+85,2,6m causeway at km 44.2 in Naogaon Haor Project ,44.2,44.2,0,0,6,0,6,HAVE_NO_CONTRACT,OG
+84,2,4m causeway at km 39.07 in Naogaon Haor Project ,39.07,39.07,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+83,2,4m causeway at km 24.06 in Naogaon Haor Project ,24.06,24.06,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+82,2,4m causeway at km 12.44 in Naogaon Haor Project ,12.44,12.44,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+81,14,4m causeway at km 23.38 in Noapara Haor Project ,23.38,23.38,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+80,1,6m causeway at km 33.3 in Boro Haor Project,33.3,33.3,0,0,6,0,6,HAVE_NO_CONTRACT,OG
+79,1,4m causeway at km 27 in Boro Haor Project,27,27,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+78,1,4m causeway at km 14.05 in Boro Haor Project,14.05,14.05,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+77,8,4m causeway at km 21.77 in Nunnir Haor Project ,21.77,21.77,0,0,4,0,6,HAVE_NO_CONTRACT,OG
+76,12,2-Vent Regulator at Km in Dhakua Haor Project ,27.51,27.51,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+75,12,2-Vent Regulator at Km27.51 in Dhakua Haor Project ,26.45,26.45,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+74,12,1-Vent Regulator at Km26.45 in Dhakua Haor Project ,25.72,25.72,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+73,12,1-Vent Regulator at Km25.72 in Dhakua Haor Project ,24.16,24.16,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+72,12,1-Vent Regulator at Km24.16 in Dhakua Haor Project ,20.77,20.77,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+71,12,1-Vent Regulator at Km20.77 in Dhakua Haor Project ,15.64,15.64,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+70,3,3-Vent Regulator at Km15.64 in Jaliar Haor Project ,9.25,9.25,0,0,3,0,5,HAVE_NO_CONTRACT,OG
+69,3,2-Vent Regulator at Km9.25 in Jaliar Haor Project ,5,5,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+68,3,1-Vent Regulator at Km5 in Jaliar Haor Project ,2.07,2.07,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+67,4,4-Vent Regulator at Km2.07 in Dharmapasha Rui Beel Project ,54.42,54.42,0,0,4,0,5,HAVE_NO_CONTRACT,OG
+66,4,2-Vent Regulator at Km54.42 in Dharmapasha Rui Beel Project ,47.31,47.31,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+65,4,2-Vent Regulator at Km47.31 in Dharmapasha Rui Beel Project ,34.28,34.28,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+64,4,1-Vent Regulator at Km34.28 in Dharmapasha Rui Beel Project,22.27,22.27,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+63,11,4-Vent Regulator at Km22.27 in Ganesh Haor Project ,29.67,29.67,0,0,4,0,5,HAVE_NO_CONTRACT,OG
+62,11,1-Vent Regulator at Km29.67 in Ganesh Haor Project ,27.27,27.27,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+61,11,1-Vent Regulator at Km27.27 in Ganesh Haor Project ,18.02,18.02,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+60,11,1-Vent Regulator at Km18.02 in Ganesh Haor Project ,7.61,7.61,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+58,13,2-Vent Regulator at Km81.2 in Mokhar Haor Project ,72.66,72.66,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+57,13,1-Vent Regulator at Km72.66 in Mokhar Haor Project ,65.45,65.45,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+56,13,1-Vent Regulator at Km65.45 in Mokhar Haor Project ,51.58,51.58,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+55,13,1-Vent Regulator at Km51.58 in Mokhar Haor Project ,46.9,46.9,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+54,13,1-Vent Regulator at Km46.9 in Mokhar Haor Project ,35.97,35.97,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+53,13,1-Vent Regulator at Km35.97 in Mokhar Haor Project ,33.69,33.69,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+52,6,6-Vent Regulator at Km33.69 in Suniar Haor Project ,17.74,17.74,0,0,6,0,5,HAVE_NO_CONTRACT,OG
+51,6,1-Vent Regulator at Km17.74 in Suniar Haor Project ,16.17,16.17,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+50,6,1-Vent Regulator at Km16.17 in Suniar Haor Project ,8.24,8.24,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+49,6,1-Vent Regulator at Km8.24 in Suniar Haor Project ,5.13,5.13,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+48,9,5-Vent Regulator at Km5.13 in Dakhshiner Haor Project ,23.19,23.19,0,0,5,0,5,HAVE_NO_CONTRACT,OG
+47,10,2-Vent Regulator at Km23.19 in Chatal Haor Project ,12.25,12.25,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+46,10,2-Vent Regulator at Km12.25 in Chatal Haor Project ,5.73,5.73,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+45,7,2-Vent Regulator at Km5.73 in Badla Haor Project ,24,24,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+44,7,1-Vent Regulator at Km24 in Badla Haor Project ,16.1,16.1,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+43,2,4-Vent Regulator at Km16.1 in Naogaon Haor Project ,44.15,44.15,0,0,4,0,5,HAVE_NO_CONTRACT,OG
+42,2,3-Vent Regulator at Km44.15 in Naogaon Haor Project ,33.8,33.8,0,0,3,0,5,HAVE_NO_CONTRACT,OG
+41,2,2-Vent Regulator at Km33.8 in Naogaon Haor Project ,14.52,14.52,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+40,2,2-Vent Regulator at Km14.52 in Naogaon Haor Project ,5.56,5.56,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+39,2,2-Vent Regulator at Km5.56 in Naogaon Haor Project ,6.04,6.04,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+38,2,2-Vent Regulator at Km6.04 in Naogaon Haor Project ,4.07,4.07,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+37,2,1-Vent Regulator at Km4.07 in Naogaon Haor Project ,2.09,2.09,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+36,14,1-vent 1.50X1.80 Regulator at Jalalpur 22.64 km,22.64,22.64,0,0,4,0,5,HAVE_NO_CONTRACT,OG
+34,14,2-Vent Regulator at Km16.13 in Noapara Haor Project ,12.34,12.34,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+33,14,1-Vent Regulator at Km12.34 in Noapara Haor Project ,4.77,4.77,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+32,14,1-Vent Regulator at Km4.77 in Noapara Haor Project ,1.64,1.64,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+31,1,14-Vent Regulator at Km1.64 in Boro Haor Project,35.2,35.2,0,0,14,0,5,HAVE_NO_CONTRACT,OG
+30,1,2-Vent Regulator at Km35.2 in Boro Haor Project,23.4,23.4,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+29,1,2-Vent Regulator at Km23.4 in Boro Haor Project,19.9,19.9,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+28,1,1-Vent Regulator at Km19.9 in Boro Haor Project,17.1,17.1,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+27,1,1-Vent Regulator at Km17.1 in Boro Haor Project,14.1,14.1,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+26,8,4-Vent Regulator at Km14.1 in Nunnir Haor Project ,15.3,15.3,0,0,4,0,5,HAVE_NO_CONTRACT,OG
+25,8,4-Vent Regulator at Km15.3 in Nunnir Haor Project ,0.78,0.78,0,0,4,0,5,HAVE_NO_CONTRACT,OG
+24,8,3-Vent Regulator at Km0.78 in Nunnir Haor Project ,3.2,3.2,0,0,3,0,5,HAVE_NO_CONTRACT,OG
+23,8,1-Vent Regulator at Km3.2 in Nunnir Haor Project ,2.62,2.62,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+22,8,1-Vent Regulator at Km2.62 in Nunnir Haor Project ,23.85,23.85,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+21,8,Construction of 1-vent Mahindra Khal Regulator,12.18,12.18,0,0,1,0,5,HAVE_NO_CONTRACT,OG
+20,5,Construction of 2-vent Bata Khal Regulator at 12.09 km,12.09,12.09,0,0,2,0,5,HAVE_NO_CONTRACT,OG
+17,3,Submersible Embankment from 4.67 to 30.29,4.67,30.29,0.315,,,,2,HAVE_NO_CONTRACT,OG
+16,7,Submersible Embankment from 0.70 to 26.80,0,26.8,20.94,,,,2,HAVE_NO_CONTRACT,OG
+15,10,Submersible Embankment from 2.470 to 16.170,2.47,16.17,4.51,,,,2,HAVE_NO_CONTRACT,OG
+13,4,Submersible Embankment -34.94 km,0,71.71,42.05,,,,2,HAVE_NO_CONTRACT,OG
+11,12,Submersible Embankment in between 10.600 to 49.426 total 33.849 km,10.6,49.426,33.849,,,,2,HAVE_NO_CONTRACT,OG
+9,11,Submersible Embankment from 0 to 33.150,0,33.15,2.38,,,,2,HAVE_NO_CONTRACT,OG
+8,2,Submersible Embankment from 0.000 to 44.200 Part-B,0,44.2,36.104,,,,2,HAVE_NO_CONTRACT,OG
+7,2,Submersible Embankment from 0 to 28.900 Part-A,0,28.9,26.942,,,,2,HAVE_NO_CONTRACT,OG
+6,8,Submersible Embankment from 0 to 19.377 Part-C,0,19.377,12.214,,,,2,HAVE_NO_CONTRACT,OG
+5,8,Submersible Embankment from 0.007 to 6.541 Part-B,0.007,6.541,6.534,,,,2,HAVE_NO_CONTRACT,OG
+4,8,Submersible Embankment from 7.366 to 17.749 Part-A,7.369,17.749,10.383,,,,2,HAVE_NO_CONTRACT,OG
+2,1,Submersible Embankment from 0.000 to 38.130,0,38.13,3.879,,,,2,HAVE_NO_CONTRACT,OG
+1,5,Submersible Embankment from 11.95 to 12.33=0.315 Km,11.95,12.23,0.315,,,,2,HAVE_NO_CONTRACT,OG

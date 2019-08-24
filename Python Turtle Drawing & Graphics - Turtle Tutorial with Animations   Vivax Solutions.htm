@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="author" content="Vivax Solutions.com">
+    <meta name="description" content="Learn Python Turtle through impressive graphics and animations - from scratch ">
+    <meta name="keywords" content="python turtle tutorial, python turtle animations, python turtle, python turtle graphics">
+<link rel="shortcut icon" href="https://www.vivaxsolutions.com/images/favicon.ico" type="image/x-icon"><link rel="preload" as="style" href="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/font-awesome.css"><link rel="preload" as="style" href="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/bootstrap.css"><link rel="preload" as="style" href="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/css.css"><link rel="preload" as="style" href="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/bs4-style.css"><link rel="preload" as="script" href="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/bootstrap.js"><link rel="preload" as="script" href="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/jquery.js"><link rel="preconnect" href="https://accounts.google.com/"><title>
+	Python Turtle Drawing &amp; Graphics - Turtle Tutorial with Animations | Vivax Solutions
+</title><link rel="preload" href="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/integrator_002.js" as="script"><script src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/osd.js"></script><script src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/ca-pub-0169544563487469.js"></script><script src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/show_ads_impl.js" id="google_shimpl"></script><script type="text/javascript" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/integrator_002.js"></script><link rel="preload" href="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/integrator.js" as="script"><script type="text/javascript" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/integrator.js"></script><link rel="preload" href="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/show_ads_impl.js" as="script"><style></style></head>
+<body><div role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window cc-banner cc-type-info cc-theme-block cc-bottom cc-color-override-2132809765 " style=""><!--googleoff: all--><span id="cookieconsent:desc" class="cc-message">This website uses cookies to ensure you get the best experience on our website. <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="https://www.vivaxsolutions.com/policy.aspx" rel="noopener noreferrer nofollow" target="_blank">Learn more</a></span><div class="cc-compliance"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss">Got it!</a></div><!--googleon: all--></div><iframe marginwidth="0" marginheight="0" scrolling="no" id="_mN_oxsync" style="display: none !important;" width="0" height="0" frameborder="0"></iframe><iframe marginwidth="0" marginheight="0" scrolling="no" id="_mN_cksync_1" style="display: none !important;" width="0" height="0" frameborder="0"></iframe><iframe marginwidth="0" marginheight="0" scrolling="no" id="_mN_cksync_0" style="display: none !important;" width="0" height="0" frameborder="0"></iframe>
+  <form method="post" action="./python-turtle.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTY1NDU2MTA1MmRkhqqzkZhv48nKNF0naId/Oi7Mdz7CbLUB8IJgWY7Luvc=">
+</div>
+
+<script async="" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/analytics.js"></script><script type="text/javascript" async="" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/rtbspub"></script><script src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/browserfp.js"></script><script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/WebResource.js" type="text/javascript"></script>
+
+
+<script src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/ScriptResource_002.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/ScriptResource.js" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2709AEE6">
+</div>
+
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', [], [], [], 90, 'ctl00');
+//]]>
+</script>
+
+
+  <!----------------------------------Top Menu User Control for maths pages-------------->	
+    
+    <!-- Fixed navbar -->
+<nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top shadow-lg" style="max-width:1200px;margin:auto;">
+        <a class="navbar-brand" href="https://www.vivaxsolutions.com/index.aspx">  
+			<img src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/vivaxsolutions.png" class="img-fluid" style="display:inline-block;" alt="Logo-Vivax Solutions" width="40" height="40"><span style="color:maroon;text-shadow:5px 5px 8px purple;font-size:160%;font-weight:bold;display:inline-block;">Vivax Solutions</span>
+        </a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.vivaxsolutions.com/index.aspx">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.vivaxsolutions.com/about.aspx">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.vivaxsolutions.com/mathematics.aspx">Maths</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.vivaxsolutions.com/physics.aspx">Physics</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="https://www.vivaxsolutions.com/webdevelopment.aspx">Coding</a>
+      </li>
+            <li class="nav-item">
+        <a class="nav-link" href="https://www.vivaxsolutions.com/contact.aspx">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+	<header id="head" class="secondary">
+		<div class="container">
+			<div class="row">
+						<div class="col-sm-12">
+					<h1>Web Development</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+
+<div id="mainPart">
+<div class="mainContainer">
+
+<div class="container">
+<!-- Google Ad -->
+<script async="" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/adsbygoogle.js"></script>
+<!-- responsive-home -->
+<ins class="adsbygoogle" style="display: block; height: 90px;" data-ad-client="ca-pub-0169544563487469" data-ad-slot="4801413329" data-ad-format="auto" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><ins id="aswift_0_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0px;width:1110px;height:90px;" width="1110" height="90" frameborder="0"></iframe></ins></ins></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+<!--Google Ads End -->  
+   <p>&nbsp;</p>                  
+<script id="Script1" language="javascript">
+    medianet_width = "728";
+    medianet_height = "90";
+    medianet_crid = "340824501";
+    medianet_versionId = "3111299"; 
+  </script>
+<script src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/nmedianet.js"></script><iframe marginwidth="0" marginheight="0" scrolling="no" id="_mN_gpt_340824501" sandbox="allow-same-origin allow-forms allow-popups allow-scripts allow-pointer-lock allow-popups-to-escape-sandbox" style="display: none !important;" width="728" height="90" frameborder="0"></iframe><iframe marginwidth="0" marginheight="0" scrolling="no" id="_mN_main_340824501_n" width="100%" height="90" frameborder="0"></iframe><script language="javascript" type="text/javascript" id="_mN_dy_340824501" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/fcmdynet_002.js"></script><iframe marginwidth="0" marginheight="0" scrolling="NO" id="_mN_main_340824501_0" style="display:none;" width="100%" height="90" frameborder="0"></iframe>
+<p>&nbsp;</p>
+</div>
+    
+<h3 class="borderBottom">Python Turtle Tutorial and Animations</h3>
+<div class="container">
+<div style="float:left;">
+<p>Python Turtle is something that evolved from Logo programming language, invented in 1966 by Wally Feurzig. With the aid of <strong>Object Oriented Programming</strong> approach, we can create an impressive set of animations easily. </p>
+<p>The following animation was created by Python Turtle; the code is at the bottom of this tutorial.</p>
+<img class="img-fluid" alt="lmc-introduction" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/turtle-1.gif" style="display:block;margin-left:auto;margin-right:auto;">
+<p>&nbsp;</p>
+<h4 class="borderLeft">The Requirements</h4>
+<p>Before using Python Turtle for animations, please take the following steps to install the environment:</p>
+
+<ul>
+<li><i class="fa fa-cog fa-spin"></i>&nbsp;&nbsp;Download the latest version of Python from <a href="https://www.python.org/downloads">here.</a></li>
+<li><i class="fa fa-cog fa-spin"></i>&nbsp;&nbsp;Load Python IDLE - Integrated Development and Learning Environment - from Windows.</li>
+<li><i class="fa fa-cog fa-spin"></i>&nbsp;&nbsp;Open a new file and save it with <strong>.py</strong> extension.</li>
+<li><i class="fa fa-cog fa-spin"></i>&nbsp;&nbsp;Write down <strong>import turtle</strong> at the top of the file in order to import the module - classes and methods.</li>
+<li><i class="fa fa-cog fa-spin"></i>&nbsp;&nbsp;Write down the code and make impressive animations.</li>
+</ul>
+<p>The best way to learn the Python turtle is running set of codes, from
+ the simplest to the more advanced gradually, rather than making an 
+effort to understand the simulator fully at first. This is the approach 
+adopted in this tutorial.</p>
+<p>The documentation of Python turtle is <a href="https://docs.python.org/2/library/turtle.html">here.</a></p>
+<div class="well text-muted">
+<p>Here are some of the turtle methods; they direct the turtle what to do:</p>
+<table class="table-responsive table text-left">
+<tbody><tr>
+<th class="text-left">Instructions</th><th class="text-left">Meaning</th>
+</tr>
+<tr><td>turtle.forward(number)</td><td>Move forward</td></tr>
+<tr><td>turtle.back(number)</td><td>Move backward</td></tr>
+<tr><td>turtle.right(angle)</td><td>Turn clockwise</td></tr>
+<tr><td>turtle.left(angle)</td><td>Turn anti-clockwise</td></tr>
+<tr><td>turtle.pencolor(colour string)</td><td>Drawing colour</td></tr>
+<tr><td>turtle.pensize(number)</td><td>Choosing size of pen nib</td></tr>
+<tr><td>turtle.circle(radius)</td><td>Drawing a circle</td></tr>
+<tr><td>turtle.speed(number)</td><td>Choosing speed  - 1 to 10</td></tr>
+<tr><td>turtle.write(message,font)</td><td>Writing on the screen</td></tr>
+<tr><td>turtle.ht()</td><td>Hiding the turtle</td></tr>
+<tr><td>turtle.setpos(x,y)</td><td>Changing the position of turtle</td></tr>
+</tbody></table>
+</div>
+<p>&nbsp;</p>
+<h4 class="borderLeft">Drawing a right-angle</h4>
+<p>The following animation shows the turtle at work in producing a right-angle on the screen:</p>
+<img class="img-fluid" alt="python turtle - right-angle" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/turtle-2.gif" style="display:block;margin-left:auto;margin-right:auto;">
+<p>&nbsp;</p>
+<p>This is the code for the above animation:</p>
+<div class="well text-muted">
+import turtle &nbsp;&nbsp;&nbsp;# importing the module<br>
+
+trtl = turtle.Turtle()&nbsp;&nbsp;&nbsp; #making a turtle object of Turtle class for drawing<br>
+screen=turtle.Screen()&nbsp;&nbsp;&nbsp; #making a canvas for drawing<br>
+
+screen.setup(400,300)&nbsp;&nbsp;&nbsp; #choosing the screen size<br>
+screen.bgcolor('black')&nbsp;&nbsp;&nbsp; #making canvas black<br>
+
+trtl.pencolor('red')&nbsp;&nbsp;&nbsp; #making colour of the pen red<br>
+trtl.pensize(5)&nbsp;&nbsp;&nbsp; #choosing the size of pen nib <br>
+trtl.speed(1)&nbsp;&nbsp;&nbsp; #choosing the speed of drawing<br>
+trtl.shape('turtle')&nbsp;&nbsp;&nbsp;#choosing the shape of pen nib<br>
+
+trtl.forward(150)&nbsp;&nbsp;&nbsp; #drawing a line of 200 pixels<br>
+trtl.right(90) &nbsp;&nbsp;&nbsp;#asking turtle to turn 90 degrees<br>
+trtl.forward(150)&nbsp;&nbsp;&nbsp; #drawing a line of 200 pixels<br>
+
+trtl.penup() &nbsp;&nbsp;&nbsp;# preparing for moving pen without drawing<br>
+trtl.setpos(-140,-120)&nbsp;&nbsp;&nbsp; # making the new position of the turtle<br>
+trtl.pendown()&nbsp;&nbsp;&nbsp;# bringing the pen down for drawing again<br>
+
+trtl.pencolor('green') &nbsp;&nbsp;&nbsp;# choosin the pen colour as green<br>
+trtl.write('Vivax Solutions', font=("Arial", 20, "bold"))&nbsp;&nbsp;&nbsp; # chosing the font<br>
+trtl.penup()<br>
+trtl.ht()&nbsp;&nbsp;&nbsp; # hiding the turtle from the screen
+</div>
+<p><strong>#</strong> sign indicates the comments in Python scripts.</p>
+<h4 class="borderLeft">Drawing a Square</h4>
+<p>The following animation shows how the turtle draws a square on the screen:</p>
+<img class="img-fluid" alt="python turtle - right-angle" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/turtle-3.gif" style="display:block;margin-left:auto;margin-right:auto;">
+<p>&nbsp;</p>
+<p>This is the code for the above animation:</p>
+<div class="well text-muted">
+import turtle # importing the module<br>
+
+trtl = turtle.Turtle()&nbsp;&nbsp;&nbsp; #making a turtle object of Turtle class for drawing<br>
+screen=turtle.Screen()&nbsp;&nbsp;&nbsp; #making a canvas for drawing<br>
+
+screen.setup(400,300)&nbsp;&nbsp;&nbsp; #choosing the screen size<br>
+screen.bgcolor('black')&nbsp;&nbsp;&nbsp; #making canvas black<br>
+
+trtl.pencolor('red')&nbsp;&nbsp;&nbsp; #making colour of the pen red<br>
+trtl.pensize(5)&nbsp;&nbsp;&nbsp; #choosing the size of pen nib <br>
+trtl.speed(1) &nbsp;&nbsp;&nbsp;#choosing the speed of drawing<br>
+trtl.shape('turtle')&nbsp;&nbsp;&nbsp;#choosing the shape of pen nib<br>
+
+
+trtl.forward(100)&nbsp;&nbsp;&nbsp; #top line<br>
+trtl.right(90) <br>
+trtl.forward(100)&nbsp;&nbsp;&nbsp; # right vertical line<br>
+trtl.right(90)<br>
+trtl.forward(100)&nbsp;&nbsp;&nbsp;# bottom line<br>
+trtl.right(90)<br>
+trtl.forward(100)&nbsp;&nbsp;&nbsp;# left vertical line<br>
+
+
+# information printing<br>
+trtl.penup() <br>
+trtl.setpos(-120,100) <br>
+trtl.pendown()<br>
+trtl.pencolor('green')<br> 
+trtl.write('Square - Vivax Solutions', font=("Arial", 16, "bold"))<br>
+trtl.penup()<br>
+trtl.ht()<br> 
+</div>
+<p>Although, the above code produces a square, it is not good 
+programming practice due to repetition of the code, which could have 
+been tackled by a simple loop. Therefore, the code can be revised to 
+produce the same shape with efficiency as follows:</p>
+<div class="well text-muted">
+import turtle&nbsp;&nbsp;&nbsp; # importing the module<br>
+
+trtl = turtle.Turtle()&nbsp;&nbsp;&nbsp; #making a turtle object of Turtle class for drawing<br>
+screen=turtle.Screen()&nbsp;&nbsp;&nbsp; #making a canvas for drawing<br>
+
+screen.setup(400,300)&nbsp;&nbsp;&nbsp; #choosing the screen size<br>
+screen.bgcolor('black')&nbsp;&nbsp;&nbsp; #making canvas black<br>
+
+trtl.pencolor('red')&nbsp;&nbsp;&nbsp; #making colour of the pen red<br>
+trtl.pensize(5)&nbsp;&nbsp;&nbsp; #choosing the size of pen nib <br>
+trtl.speed(1) &nbsp;&nbsp;&nbsp;#choosing the speed of drawing<br>
+trtl.shape('turtle')&nbsp;&nbsp;&nbsp;#choosing the shape of pen nib<br>
+
+
+for i in range(4): # for loop to minimize the same lines of codes being written<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trtl.forward(100)&nbsp;&nbsp;&nbsp;# for lines<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trtl.right(90)&nbsp;&nbsp;&nbsp; # for turning <br>
+
+# information printing<br>
+trtl.penup() <br>
+trtl.setpos(-120,100) <br>
+trtl.pendown()<br>
+trtl.pencolor('green')<br> 
+trtl.write('Square - Vivax Solutions', font=("Arial", 16, "bold"))<br>
+trtl.penup()<br>
+trtl.ht()<br> 
+</div>
+<p>The <strong>for loop</strong> makes the drawing of the square much easier. It role is really important when we create other polygons.</p>
+<!-- Google Ad in-article -->
+<script async="" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display: block; text-align: center; height: 200px;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-0169544563487469" data-ad-slot="8293780340" data-adsbygoogle-status="done" data-overlap-observer-io="false"><ins id="aswift_1_expand" style="display:inline-table;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><ins id="aswift_1_anchor" style="display:block;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0px;width:1110px;height:200px;" width="1110" height="200" frameborder="0"></iframe></ins></ins></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- Google Ad -end -->
+<p>&nbsp;</p>
+<kbd>Recommended Books</kbd>
+<p>&nbsp;</p>
+<div style="float:left;">
+<a href="https://www.amazon.co.uk/Computer-Science-Complete-Revision-Practice/dp/1782948600/ref=as_li_ss_il?ie=UTF8&amp;qid=1552556451&amp;sr=8-1&amp;keywords=gcse+computer+science&amp;linkCode=li3&amp;tag=wwwvivaxsolut-21&amp;linkId=d0f6fba2f98841ace5810aa7460f61a9&amp;language=en_GB" target="_blank"><img src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/q_004.jpg" border="0"></a><img src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/ir_002.gif" alt="" style="border:none !important; margin:0px !important;" width="1" height="1" border="0">
+</div>
+<div style="float:right;">
+<a href="https://www.amazon.co.uk/GCSE-Computer-Science-Revision-Guide/dp/1782949313/ref=as_li_ss_il?ie=UTF8&amp;qid=1552556451&amp;sr=8-3&amp;keywords=gcse+computer+science&amp;linkCode=li3&amp;tag=wwwvivaxsolut-21&amp;linkId=b554121e27f3c97901cb66c7a2a5cbd0&amp;language=en_GB" target="_blank"><img src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/q_002.jpg" border="0"></a><img src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/ir_003.gif" alt="" style="border:none !important; margin:0px !important;" width="1" height="1" border="0">
+</div>
+<div class="clearfix"></div>
+<p>If you are learning computer science at GCSE, here is a set of books 
+for you: they are revision guides, yet they cover every single topic, 
+while giving ample information to grasp the concepts in an innovative 
+way; the books show a clear path to follow, something that the bulky 
+text books fail to do; they are good even for a sixth former.</p>
+<p>&nbsp;</p>
+<h4 class="borderLeft">Drawing Polygons</h4>
+<p>In order to change the above code to draw polygons, we need to take 
+into account some concepts in geometry. As you can see, with each turn, 
+the turtle moves through a certain angle, specified by <strong>right(angle).</strong> This is the <strong>exterior angle</strong> of the polygon, which is the same as <strong>360/n</strong>, where <strong>n</strong> is the number of sides.</p>
+<img class="img-fluid" alt="python turtle - exterior angle" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/turtle-4.gif" style="display:block;margin-left:auto;margin-right:auto;">
+<p>&nbsp;</p>
+<p>With <strong>for</strong> and <strong>while</strong> loops, the following code produces a set of polygons on screen - from a triangle to a decagon.</p>
+<img class="img-fluid" alt="lmc-introduction" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/turtle-5.gif" style="display:block;margin-left:auto;margin-right:auto;">
+<p>&nbsp;</p>
+<p>The code for the above animation is as follows:</p>
+<div class="well text-muted">
+import turtle&nbsp;&nbsp;&nbsp;&nbsp; # importing the module<br>
+import time&nbsp;&nbsp;&nbsp;&nbsp;#importing the time module
+trtl = turtle.Turtle()&nbsp;&nbsp;&nbsp;&nbsp; #making a turtle object of Turtle class for drawing<br>
+screen=turtle.Screen()&nbsp;&nbsp;&nbsp;&nbsp; #making a canvas for drawing<br>
+
+screen.setup(620,470)&nbsp;&nbsp;&nbsp;&nbsp; #choosing the screen size<br>
+screen.bgpic('bg.gif')&nbsp;&nbsp;&nbsp;&nbsp; #making canvas black<br>
+
+trtl.pencolor('red')&nbsp;&nbsp;&nbsp;&nbsp; #making colour of the pen red<br>
+trtl.pensize(5)&nbsp;&nbsp;&nbsp;&nbsp; #choosing the size of pen nib <br>
+trtl.speed(1)&nbsp;&nbsp;&nbsp;&nbsp; #choosing the speed of drawing<br>
+trtl.shape('turtle')&nbsp;&nbsp;&nbsp;&nbsp;#choosing the shape of pen nib<br>
+time.sleep(12)<br>
+n=3&nbsp;&nbsp;&nbsp;&nbsp;starting for a triangle<br>
+shapes=['Triangle','Square','Pentagon','Hexagon','Heptagon','Octagon','Nonagon','Decagon']<br>
+while n&lt;11: #&nbsp;&nbsp;&nbsp;&nbsp;limiting to a decagon<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for i in 
+range(n):&nbsp;&nbsp;&nbsp;&nbsp; # for loop to minimize the same lines 
+of codes being written<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trtl.pencolor('red')<br>
+          
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trtl.forward(100)&nbsp;&nbsp;&nbsp;&nbsp;
+ #top line<br>
+          
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trtl.right(360/n)&nbsp;&nbsp;&nbsp;&nbsp;#determining
+ the exterior angle of the polygon<br>
+      trtl.penup() <br>
+      trtl.setpos(-80,180)&nbsp;&nbsp;&nbsp;&nbsp;#moving the turtle to make the animation more centric <br>
+      trtl.pendown()<br>
+      trtl.pencolor('blue') <br>
+     
+      trtl.write(' This is '+shapes[n-3], font=("Arial", 16, "bold"))&nbsp;&nbsp;&nbsp;&nbsp;#printing the name of the polygon<br>
+      n=n+1<br>
+      time.sleep(1)<br>&nbsp;&nbsp;&nbsp;&nbsp;#making turtle sleep for one second
+      trtl.clear()<br>
+      trtl.penup()<br>
+      trtl.setpos(-n*8,n*14)<br>
+      trtl.pendown()
+</div>
+<p>If you want to practise it interactively, here is the code:</p>
+<p>&nbsp;</p>
+<iframe src="https://trinket.io/embed/python/acd69b84f9" marginwidth="0" marginheight="0" allowfullscreen="" width="100%" height="356" frameborder="0"></iframe>
+<p>&nbsp;</p>
+<!-- Google Ad in-article -->
+<script async="" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display: block; text-align: center; height: 200px;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-0169544563487469" data-ad-slot="8293780340" data-adsbygoogle-status="done" data-overlap-observer-io="false"><ins id="aswift_2_expand" style="display:inline-table;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><ins id="aswift_2_anchor" style="display:block;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;border:0px;width:1110px;height:200px;" width="1110" height="200" frameborder="0"></iframe></ins></ins></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- Google Ad -end -->
+<p>&nbsp;</p>
+<h4 class="borderLeft">Drawing Letter E</h4>
+<iframe src="https://trinket.io/embed/python/95cbef6592" marginwidth="0" marginheight="0" allowfullscreen="" width="100%" height="600" frameborder="0"></iframe>
+<p>Please note how the image is centred on the screen, with turtle.setpos() method.</p>
+<p>&nbsp;</p>
+<h4 class="borderLeft">Drawing Circles</h4>
+<p>Here is the code for adding two numbers and drawing a circle:</p>
+<div class="well text-muted">
+import turtle&nbsp;&nbsp;&nbsp; # importing the module<br>
+trtl = turtle.Turtle()&nbsp;&nbsp;&nbsp; #making a turtle object of Turtle class for drawing<br>
+screen=turtle.Screen()&nbsp;&nbsp;&nbsp; #making a canvas for drawing<br>
+screen.setup(420,320)&nbsp;&nbsp;&nbsp; #choosing the screen size<br>
+screen.bgpic('bg.gif') &nbsp;&nbsp;&nbsp;#making canvas black<br>
+trtl.pencolor('red')&nbsp;&nbsp;&nbsp; #making colour of the pen red<br>
+trtl.pensize(4)&nbsp;&nbsp;&nbsp; #choosing the size of pen nib <br>
+trtl.speed(1)&nbsp;&nbsp;&nbsp; #choosing the speed of drawing<br>
+trtl.shape('turtle')&nbsp;&nbsp;&nbsp;#choosing the shape of pen nib<br>
+trtl.circle(60)&nbsp;&nbsp;&nbsp;drawing circle with radius 60 pixels
+</div>
+<p>The following animation shows how the two numbers are taken in as two inputs and later answer is given out:</p>
+<img class="img-fluid" alt="python-turtle:circles" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/turtle-6.gif" style="display:block;margin-left:auto;margin-right:auto;">
+<p>&nbsp;</p>
+<p>As you can see, the starting point of the circle is the centre of the
+ screen by default, which is not the centre of the circle. In order to 
+get round this problem, we have to set the position by code as follows: </p>
+<div class="well text-muted">
+import turtle&nbsp;&nbsp;&nbsp; # importing the module<br>
+trtl = turtle.Turtle()&nbsp;&nbsp;&nbsp; #making a turtle object of Turtle class for drawing<br>
+screen=turtle.Screen()&nbsp;&nbsp;&nbsp; #making a canvas for drawing<br>
+screen.setup(420,320)&nbsp;&nbsp;&nbsp; #choosing the screen size<br>
+screen.bgpic('bg.gif') &nbsp;&nbsp;&nbsp;#making canvas black<br>
+trtl.pencolor('red')&nbsp;&nbsp;&nbsp; #making colour of the pen red<br>
+trtl.pensize(4)&nbsp;&nbsp;&nbsp; #choosing the size of pen nib <br>
+trtl.shape('turtle')&nbsp;&nbsp;&nbsp;#choosing the shape of pen nib<br>
+trtl.penup()&nbsp;&nbsp;&nbsp;#moving the pen up<br>
+trtl.setpos(0,-60)&nbsp;&nbsp;&nbsp;#setting new position<br>
+trtl.pendown()&nbsp;&nbsp;&nbsp;#moving the pen down<br>
+trtl.circle(60)&nbsp;&nbsp;&nbsp;#drawing circle with radius 60 pixels
+</div>
+<img class="img-fluid" alt="lmc-data-addition" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/turtle-7.gif" style="display:block;margin-left:auto;margin-right:auto;">
+<p>&nbsp;</p>
+<h4 class="borderLeft">Drawing Concentric Circles</h4>
+<p>Here is the code for drawing concentric circles with the aid of loops:</p>
+<div class="well text-muted">
+import turtle&nbsp;&nbsp;&nbsp; # importing the module<br>
+
+trtl = turtle.Turtle()&nbsp;&nbsp;&nbsp; #making a turtle object of Turtle class for drawing<br>
+screen=turtle.Screen()&nbsp;&nbsp;&nbsp; #making a canvas for drawing<br>
+
+screen.setup(420,320)&nbsp;&nbsp;&nbsp; #choosing the screen size<br>
+screen.bgpic('bg.gif')&nbsp;&nbsp;&nbsp; #making canvas black<br>
+
+trtl.pencolor('red')&nbsp;&nbsp;&nbsp; #making colour of the pen red<br>
+trtl.pensize(4)&nbsp;&nbsp;&nbsp; #choosing the size of pen nib <br>
+trtl.shape('turtle')&nbsp;&nbsp;&nbsp;#choosing the shape of pen nib<br>
+n=0&nbsp;&nbsp;&nbsp;<br>
+while n&lt;7:&nbsp;&nbsp;&nbsp;#loop for 7 circles<br>
+      n=n+1&nbsp;&nbsp;&nbsp;<br>
+      trtl.penup()&nbsp;&nbsp;&nbsp;<br>
+      trtl.setpos(0,-n*20)&nbsp;&nbsp;&nbsp;<br>
+      trtl.pendown()&nbsp;&nbsp;&nbsp;<br>
+      trtl.circle(20*n)&nbsp;&nbsp;&nbsp;
+
+</div>
+<p>The following animation shows how the animation works:</p>
+<img class="img-fluid" alt="python-turtle-concentric cirles" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/turtle-8.gif" style="display:block;margin-left:auto;margin-right:auto;">
+<p>&nbsp;</p>
+<!-- Google Ad in-article -->
+<script async="" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display: block; text-align: center; height: 200px;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-0169544563487469" data-ad-slot="8293780340" data-adsbygoogle-status="done" data-overlap-observer-io="false"><ins id="aswift_3_expand" style="display:inline-table;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><ins id="aswift_3_anchor" style="display:block;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_3" name="aswift_3" style="left:0;position:absolute;top:0;border:0px;width:1110px;height:200px;" width="1110" height="200" frameborder="0"></iframe></ins></ins></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- Google Ad -end -->
+<p>&nbsp;</p>
+<h4 class="borderLeft">Changing Colours</h4>
+<p>The colour of the pen can be changed in many different ways; here are two ways:</p>
+<ol>
+<li>turtle.pencolor('red')</li>
+<li>turtle.pencolor(red, green, blue)</li>
+</ol>
+<p>If you use the second method, red, green and blue can be any integer between <strong>1 - 255.</strong> However, before that, <strong>turtle.colormode(1) or turtle.colormode(255)</strong> must be declared in the code.</p>
+<p>Here is the code:</p>
+<div class="well text-muted">
+import turtle&nbsp;&nbsp;&nbsp; # importing the module<br>
+import random&nbsp;&nbsp;&nbsp; # importing random module for generating random numbers<br>
+trtl = turtle.Turtle()&nbsp;&nbsp;&nbsp; #making a turtle object of Turtle class for drawing<br>
+screen=turtle.Screen()&nbsp;&nbsp;&nbsp; #making a canvas for drawing<br>
+
+screen.setup(420,320)&nbsp;&nbsp;&nbsp; #choosing the screen size<br>
+screen.bgpic('bg.gif') &nbsp;&nbsp;&nbsp;#making canvas black<br>
+trtl.pensize(4)&nbsp;&nbsp;&nbsp; #choosing the size of pen nib<br> 
+trtl.speed(1)&nbsp;&nbsp;&nbsp; #choosing the speed of drawing<br>
+trtl.shape('turtle')&nbsp;&nbsp;&nbsp;#choosing the shape of pen nib<br>
+n=0<br>
+while n&lt;7:<br>
+      r=random.randint(1,120)&nbsp;&nbsp;&nbsp;#random numbers for red<br>
+      g=random.randint(81,200)&nbsp;&nbsp;&nbsp;#random numbers for green<br>
+      b=random.randint(61,255)&nbsp;&nbsp;&nbsp;#random numbers for blue<br>
+      turtle.colormode(255)&nbsp;&nbsp;&nbsp;#declaring the colour mode<br>
+      trtl.pencolor(r,g,b)&nbsp;&nbsp;&nbsp;#pen colour<br>
+      n=n+1<br>
+      trtl.penup()<br>
+      trtl.setpos(0,-n*20)<br>
+      trtl.pendown()<br>
+      trtl.circle(20*n)
+
+</div>
+<p>The following animation shows the output - with random colours, of course.</p>
+<img class="img-fluid" alt="python-turtle-colours" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/turtle-9.gif" style="display:block;margin-left:auto;margin-right:auto;">
+<!-- Google Ad in-article -->
+<script async="" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display: block; text-align: center; height: 200px;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-0169544563487469" data-ad-slot="8293780340" data-adsbygoogle-status="done" data-overlap-observer-io="false"><ins id="aswift_4_expand" style="display:inline-table;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><ins id="aswift_4_anchor" style="display:block;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_4" name="aswift_4" style="left:0;position:absolute;top:0;border:0px;width:1110px;height:200px;" width="1110" height="200" frameborder="0"></iframe></ins></ins></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- Google Ad -end -->
+<p>&nbsp;</p>
+<h4 class="borderLeft">Advanced
+ Animations - turtle in its habitat!</h4>
+<p>The following code creates a turtle that moves around on a beach - leaving behind a certain regular pattern!</p>
+<div class="well text-muted">
+import turtle <br>
+import random<br>
+trtl = turtle.Turtle()<br>
+screen=turtle.Screen()<br> 
+screen.setup(420,320)<br> 
+screen.bgpic('bg.gif')<br> 
+trtl.pensize(4) <br>
+trtl.speed(1)<br> 
+trtl.shape('turtle')<br>
+turtle.colormode(255)<br>
+trtl.pencolor(242,242,242)<br>
+trtl.penup()<br>
+trtl.setpos(-160,-100)<br>
+trtl.pendown()<br>
+for i in range(4):<br>
+ &nbsp;  &nbsp;  &nbsp;  &nbsp;     trtl.forward(40)<br>
+  &nbsp;  &nbsp;  &nbsp;  &nbsp;      trtl.left(90)<br>
+   &nbsp;  &nbsp;  &nbsp;  &nbsp;     trtl.forward(30)<br>
+  &nbsp;  &nbsp;  &nbsp;  &nbsp;      trtl.right(90)<br>
+   &nbsp;  &nbsp;  &nbsp;  &nbsp;     trtl.forward(40)
+</div>
+<p>The following animation shows the iteration that leads to a countdown, based on the user input:</p>
+<img class="img-fluid" alt="turtle-python-motion" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/turtle-10.gif" style="display:block;margin-left:auto;margin-right:auto;">
+<p>&nbsp;</p>
+<!-- Google Ad in-article -->
+<script async="" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display: block; text-align: center; height: 200px;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-0169544563487469" data-ad-slot="8293780340" data-adsbygoogle-status="done" data-overlap-observer-io="true"><ins id="aswift_5_expand" style="display:inline-table;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><ins id="aswift_5_anchor" style="display:block;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_5" name="aswift_5" style="left:0;position:absolute;top:0;border:0px;width:1110px;height:200px;" width="1110" height="200" frameborder="0"></iframe></ins></ins></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- Google Ad -end -->
+<p>&nbsp;</p>
+<h4 class="borderLeft">Advanced Animations - diverging turtles</h4>
+<p>In this animation, turtles leave their foot print on the beach: this is achieved by <strong>turtle.stamp()</strong> method along with <strong>turtle.penup()</strong>. This is the code:</p>
+<div class="well text-muted">
+import turtle <br>
+import random<br>
+import time<br>
+screen=turtle.Screen()<br>
+trtl=turtle.Turtle()<br>
+screen.setup(420,320)<br>
+screen.bgpic('bg.gif')<br>
+
+trtl.shape('turtle')<br>
+trtl.color('darkgoldenrod','black')<br>
+s=10<br>
+trtl.penup()<br>
+trtl.setpos(30,30)<br>
+for i in range(28):<br>
+&nbsp; &nbsp;  &nbsp;  &nbsp;       s=s+2<br>
+ &nbsp;  &nbsp;  &nbsp;  &nbsp;       trtl.stamp()<br>
+ &nbsp;  &nbsp;  &nbsp;  &nbsp;       trtl.forward(s)<br>
+  &nbsp;  &nbsp;  &nbsp;  &nbsp;      trtl.right(25)<br>
+ &nbsp;  &nbsp;  &nbsp;  &nbsp;       time.sleep(0.25) &nbsp;&nbsp;&nbsp;&nbsp; #activated with a break of a 1/4th of a second
+
+</div>
+<p>The animation is as follows:</p>
+<img class="img-fluid" alt="turtle-python-motion-on beach" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/turtle-11.gif" style="display:block;margin-left:auto;margin-right:auto;">
+<p>&nbsp;</p>
+<!-- Google Ad in-article -->
+<script async="" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display: block; text-align: center; height: 200px;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-0169544563487469" data-ad-slot="8293780340" data-adsbygoogle-status="done" data-overlap-observer-io="true"><ins id="aswift_6_expand" style="display:inline-table;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><ins id="aswift_6_anchor" style="display:block;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_6" name="aswift_6" style="left:0;position:absolute;top:0;border:0px;width:1110px;height:200px;" width="1110" height="200" frameborder="0"></iframe></ins></ins></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- Google Ad -end -->
+<p>&nbsp;</p>
+<h4 class="borderLeft">Advanced Animations - colourful star</h4>
+<p>With the aid of simple geometry, a star can be drawn by Python Turtle. This is the code:</p>
+<div class="well text-muted">
+import turtle <br>
+import time<br>
+screen=turtle.Screen()<br>
+trtl=turtle.Turtle()<br>
+screen.setup(420,320)<br>
+screen.bgcolor('black')<br>
+clr=['red','green','blue','yellow','purple']<br>
+trtl.pensize(4)<br>
+trtl.penup()<br>
+trtl.setpos(-90,30)<br>
+trtl.pendown()<br>
+for i in range(5):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    trtl.pencolor(clr[i])<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    trtl.forward(200)<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;   trtl.right(144)<br>
+ trtl.penup()<br>
+trtl.setpos(80,-140)<br>
+trtl.pendown()<br>
+trtl.pencolor('olive')<br>
+trtl.write('Vivax Solutions',font=("Arial", 12, "normal"))<br>
+trtl.ht()         
+</div>
+<p>This is the animation that produces the star:</p>
+<img class="img-fluid" alt="turtle-python-star" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/turtle-12.gif" style="display:block;margin-left:auto;margin-right:auto;">
+<p>&nbsp;</p>
+<h4 class="borderLeft">Advanced Animations - a clock dial</h4>
+<p>In the following animation, Python Turtle is used to construct a 
+clock dial - with numbers, 1 to 12, surrounded by a circle. This is the 
+code:</p>
+<div class="well text-muted">
+import turtle <br>
+screen=turtle.Screen()<br>
+trtl=turtle.Turtle()<br>
+screen.setup(620,620)<br>
+screen.bgcolor('black')<br>
+clr=['red','green','blue','yellow','purple']<br>
+trtl.pensize(4)<br>
+trtl.shape('turtle')<br>
+trtl.penup()<br>
+trtl.pencolor('red')<br>
+m=0<br>
+for i in range(12):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    m=m+1<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    trtl.penup()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    trtl.setheading(-30*i+60)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    trtl.forward(150)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    trtl.pendown()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    trtl.forward(25)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    trtl.penup()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    trtl.forward(20)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    trtl.write(str(m),align="center",font=("Arial", 12, "normal"))<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    if m==12:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; m=0<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    trtl.home()<br>
+trtl.home()<br>
+trtl.setpos(0,-250)<br>
+trtl.pendown()<br>
+trtl.pensize(10)<br>
+trtl.pencolor('blue')<br>
+trtl.circle(250)<br>
+
+trtl.penup()<br>
+trtl.setpos(150,-270)<br>
+trtl.pendown()<br>
+trtl.pencolor('olive')<br>
+trtl.write('Vivax Solutions',font=("Arial", 12, "normal"))<br>
+trtl.ht()         
+  
+</div>
+<p>This is the animation at work:
+</p>
+<img class="img-fluid" alt="turtle-python-clock dial" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/turtle-13.gif" style="display:block;margin-left:auto;margin-right:auto;">
+<!-- Google Ad in-article -->
+<script async="" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display: block; text-align: center; height: 200px;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-0169544563487469" data-ad-slot="8293780340" data-adsbygoogle-status="done" data-overlap-observer-io="true"><ins id="aswift_7_expand" style="display:inline-table;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><ins id="aswift_7_anchor" style="display:block;border:none;height:200px;margin:0;padding:0;position:relative;visibility:visible;width:1110px;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_7" name="aswift_7" style="left:0;position:absolute;top:0;border:0px;width:1110px;height:200px;" width="1110" height="200" frameborder="0"></iframe></ins></ins></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- Google Ad -end -->
+<p>&nbsp;</p>
+<h4 class="borderLeft">Advanced Animations - multi-coloured flower</h4>
+<p>The following code produces a flower in different colours. The 
+colours are provided with the aid of a list.The code is as follows: </p>
+<div class="well2&gt;
+import turtle &lt;br /&gt;
+import random&lt;br /&gt;
+colors = [" blue",="" "green",="" "red",="" "cyan",="" "magenta",="" "yellow"]<br="">
+trtl=turtle.Turtle()<br>
+screen=turtle.Screen()<br>
+screen.setup(620,620)<br>
+screen.bgcolor('black')<br>
+trtl.pensize(3)<br>
+trtl.speed(10)<br>
+n=-1<br>
+for angle in range(0,360,15):<br>
+&nbsp;&nbsp; &nbsp;&nbsp;n=n+1<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;if n==5:<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;n=-1<br>
+&nbsp;&nbsp; &nbsp;&nbsp;          trtl.color(colors[n])<br>
+ &nbsp;&nbsp; &nbsp;&nbsp;         trtl.seth(angle)<br>
+ &nbsp;&nbsp; &nbsp;&nbsp;         trtl.circle(100)<br>
+trtl.penup()<br>
+trtl.setpos(150,-270)<br>
+trtl.pendown()<br>
+trtl.pencolor('olive')<br>
+trtl.write('Vivax Solutions',font=("Arial", 12, "normal"))<br>
+trtl.ht()  
+</div>
+<p>This is the animation:</p>
+<img class="img-fluid" alt="turtle-python-flower" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/turtle-14.gif" style="display:block;margin-left:auto;margin-right:auto;">
+<p>&nbsp;</p>
+<p>As you can see, the effect is produced by <strong>turtle.seth()</strong> function - in turning the direction of turtle.</p>
+<p>&nbsp;</p>
+<h4 class="borderLeft">Drawing Multiple Squares</h4>
+<p>In this animation, predetermined number of squares are drawn with the
+ aid of a function. The function has two parameters - length of the 
+square and the colour.
+Then, using a for loop, we can draw the number of squares we need. You 
+can change the length and colour in order to practise interactively.
+ </p>
+ <iframe src="https://trinket.io/embed/python/fcb329e76f" marginwidth="0" marginheight="0" allowfullscreen="" width="100%" height="600" frameborder="0"></iframe>
+<p>&nbsp;</p>
+<h4 class="borderLeft">Creating a Graph Paper</h4>
+<p>With the code given below, you can create a graph paper easily with Python Turtle:</p>
+<div class="well text-muted">
+import turtle<br>
+trtl=turtle.Turtle()<br>
+trtl.speed(10)<br>
+for i in range(0,400,20):<br>
+    trtl.pencolor('lightgrey')<br>
+ &nbsp;&nbsp; &nbsp;&nbsp;  trtl.penup()<br>
+ &nbsp;&nbsp; &nbsp;&nbsp;  trtl.setpos(-200+i,-200)<br>
+ &nbsp;&nbsp; &nbsp;&nbsp;  if i==0:<br>
+  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;   trtl.left(90)<br>
+  &nbsp;&nbsp; &nbsp;&nbsp; trtl.pendown()<br>
+ &nbsp;&nbsp; &nbsp;&nbsp;  trtl.forward(400)<br>
+ &nbsp;&nbsp; &nbsp;&nbsp;  trtl.backward(400)<br>
+for i in range(0,400,20):<br>
+ &nbsp;&nbsp; &nbsp;&nbsp;  trtl.pencolor('lightgrey')<br>
+ &nbsp;&nbsp; &nbsp;&nbsp;  trtl.penup()<br>
+ &nbsp;&nbsp; &nbsp;&nbsp;  trtl.setpos(-200,-200+i)<br>
+ &nbsp;&nbsp; &nbsp;&nbsp;  if i==0:<br>
+  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;   trtl.right(90)<br>
+  &nbsp;&nbsp; &nbsp;&nbsp; trtl.pendown()<br>
+ &nbsp;&nbsp; &nbsp;&nbsp;  trtl.forward(400)<br>
+  &nbsp;&nbsp; &nbsp;&nbsp; trtl.backward(400)<br> 
+trtl.penup()<br>
+trtl.home()<br>
+trtl.pendown()<br>
+trtl.pencolor('black')<br>
+trtl.backward(200)<br>
+trtl.forward(400)<br>
+trtl.backward(200)<br>
+trtl.left(90)<br>
+trtl.forward(200)<br>
+trtl.backward(400)<br>
+trtl.penup()<br>
+trtl.setpos(5,5)<br>
+trtl.pendown()<br>
+trtl.write(0)<br>
+trtl.penup()<br>
+trtl.setpos(190,5)<br>
+trtl.pendown()<br>
+trtl.write("x")<br>
+trtl.penup()<br>
+trtl.setpos(5,190)<br>
+trtl.pendown()<br>
+trtl.write("y")<br>
+trtl.penup()<br>
+trtl.setpos(80,-180)<br>
+trtl.pendown()<br>
+trtl.write("Vivax Solutions")<br>
+trtl.ht()
+</div>
+<p>With the above code, the following can be produced:</p>
+<img class="img-fluid" alt="turtle-python-graph paper" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/turtle-graph.jpg" style="display:block;margin-left:auto;margin-right:auto;">
+<p>&nbsp;</p>
+<p>You can practise it interactively here:</p>
+<iframe src="https://trinket.io/embed/python/dd774102ad" marginwidth="0" marginheight="0" allowfullscreen="" width="100%" height="600" frameborder="0"></iframe>
+<h4 class="borderLeft">The Code for Fifty Shades of Grey Animation</h4>
+<p>In order to produce the animation at the top of this tutorial, please follow this code:</p>
+<div class="well text-muted">
+import turtle<br>
+turtle.penup()<br>
+turtle.setpos(-100,250)<br>
+turtle.pendown()<br>
+turtle.pencolor('olive')<br>
+turtle.write('Fifty Shades of Grey',font=("Arial", 18, "bold"))<br>
+turtle.penup()<br>
+turtle.setpos(0,0)<br>
+turtle.pendown()<br>
+turtle.color("black", "white")<br>
+turtle.colormode(1.0)<br>
+SQUARES = 50<br>
+SIDE = 150<br>
+shade = 1.0<br>
+for count in range(SQUARES):<br>
+    turtle.fillcolor(shade, shade, shade)<br>
+    turtle.begin_fill()<br>
+    turtle.left(360 // SQUARES)<br>
+    for side in range(4):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;turtle.forward(SIDE)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;turtle.left(90)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;turtle.end_fill()<br>
+&nbsp;&nbsp;&nbsp;&nbsp;shade -= turtle.colormode() / float(SQUARES)<br>
+turtle.penup()<br>
+turtle.setpos(150,-270)<br>
+turtle.pendown()<br>
+turtle.pencolor('olive')<br>
+turtle.write('Vivax Solutions',font=("Arial", 12, "normal"))<br>
+turtle.done()
+</div>
+<p>Now that you have read this tutorial, you will find the following tutorials very helpful too:</p>
+<div class="list styled custom-list">
+<ul>
+<li><a href="https://www.vivaxsolutions.com/web/python.aspx">Python: basic to intermediate - interactive</a></li>
+<li><a href="https://www.vivaxsolutions.com/web/visual-basic.aspx">Visual Basic - interactive</a></li>
+<li><a href="https://www.vivaxsolutions.com/web/lmc.aspx">Little Man Computer - LMC Tutorial</a></li>
+<li><a href="https://www.vivaxsolutions.com/web/oop.aspx">Object Oriented Programming - OOP</a></li>
+<li><a href="https://www.vivaxsolutions.com/web/html5.aspx">HTML Tutorial</a></li>
+<li><a href="https://www.vivaxsolutions.com/web/javascript.aspx">JavaScript Tutorial</a></li>
+</ul>
+</div>
+<p>&nbsp;</p>
+</div>
+<div style="float:right;">
+<script async="" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/adsbygoogle.js"></script>
+<!-- verticlal-banner-wide -->
+<ins class="adsbygoogle" style="display:inline-block;width:300px;height:1050px" data-ad-client="ca-pub-0169544563487469" data-ad-slot="2557575224" data-adsbygoogle-status="done"><ins id="aswift_8_expand" style="display:inline-table;border:none;height:1050px;margin:0;padding:0;position:relative;visibility:visible;width:300px;background-color:transparent;"><ins id="aswift_8_anchor" style="display:block;border:none;height:1050px;margin:0;padding:0;position:relative;visibility:visible;width:300px;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_8" name="aswift_8" style="left:0;position:absolute;top:0;border:0px;width:300px;height:1050px;" width="300" height="1050" frameborder="0"></iframe></ins></ins></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class="clearfix">
+</div>
+</div>
+
+<div class="container text-center" style="max-width:1200px;">
+<script async="" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display: block; height: 585px;" data-ad-format="autorelaxed" data-ad-client="ca-pub-0169544563487469" data-ad-slot="4360745726" data-adsbygoogle-status="done"><ins id="aswift_9_expand" style="display:inline-table;border:none;height:585px;margin:0;padding:0;position:relative;visibility:visible;width:1170px;background-color:transparent;"><ins id="aswift_9_anchor" style="display:block;border:none;height:585px;margin:0;padding:0;position:relative;visibility:visible;width:1170px;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_9" name="aswift_9" style="left:0;position:absolute;top:0;border:0px;width:1170px;height:585px;" width="1170" height="585" frameborder="0"></iframe></ins></ins></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                       <p>&nbsp;</p>
+<script id="Script2" language="javascript">
+    medianet_width = "728";
+    medianet_height = "90";
+    medianet_crid = "340824501";
+    medianet_versionId = "3111299"; 
+  </script>
+<script src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/nmedianet.js"></script><script language="javascript" type="text/javascript" id="_mN_dy_340824501_1" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/fcmdynet.js"></script><iframe marginwidth="0" marginheight="0" scrolling="no" id="_mN_main_340824501_1_n" width="100%" height="90" frameborder="0"></iframe>
+                         <p>&nbsp;</p>
+</div>
+ </div>
+ </div>
+
+
+	<!--------------------------------------------------- Jumborton------------------------------- -->
+
+	<section class="container">
+				<div class="jumbotron">
+                <div class="row">
+                    <div class="col-sm-4 text-center">
+                <h3>Recommended Reading</h3> 
+					<!-- html5 canvas animation book on amazon-->
+                    <kbd>Amazon Best Seller</kbd><br>
+                        <a href="https://www.amazon.co.uk/Web-Design-HTML-JavaScript-jQuery/dp/1118907442/ref=as_li_ss_il?ie=UTF8&amp;qid=1539940368&amp;sr=8-1&amp;keywords=javascript&amp;&amp;linkCode=li3&amp;tag=wwwvivaxsolut-21&amp;linkId=550df815e58df2faeb9f505728bd158c&amp;language=en_GB" target="_blank"><img src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/q_005.jpg" border="0"></a><img src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/ir_005.gif" alt="" style="border:none !important; margin:0px !important;" width="1" height="1" border="0">				    <p>&nbsp;</p>
+					 <p class="text-left">Everything is evolving; so is the layout of a
+ text book. By uniquely presenting the rich contents of the book, the 
+author has elevated positive user experience of reading a text book to a
+ new level: the examples are easy to follow and rich in standard. Highly
+ recommended for those who want to master JavaScript and JQuery. </p>
+					
+                    </div>
+                    <div class="col-sm-4  text-center">
+                              <h3 class="text-center">Progressive Web Apps(PWA)</h3> <br>
+<a href="https://www.amazon.co.uk/Building-Progressive-Web-Apps-Ater/dp/1491961651/ref=as_li_ss_il?s=books&amp;ie=UTF8&amp;qid=1547771408&amp;sr=1-2&amp;keywords=progressive+web+apps&amp;linkCode=li3&amp;tag=wwwvivaxsolut-21&amp;linkId=295a5d1f0328efd5a6bf9ccbb54fb453&amp;language=en_GB" target="_blank"><img src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/q.jpg" border="0"></a><img src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/ir.gif" alt="" style="border:none !important; margin:0px !important;" width="1" height="1" border="0"> 
+				     <p>&nbsp;</p>
+					 <p class="text-left">The significance of app stores is over; progressive web apps is the next <em>big thing.</em>
+ They are just websites that makes the need of going through app stores 
+and need of storing redundant. They work offline too. If you have a 
+reasonable understanding of HTML, CSS and JavaScript, this is the book 
+for you to learn in no time. </p>
+</div>
+                <div class="col-sm-4 text-center">
+                              <h3 class="text-center">HTML5 Canvas Animations</h3> <br>
+<a href="https://www.amazon.co.uk/Core-HTML5-Canvas-Animation-Development/dp/B01JKJ1YLA/ref=as_li_ss_il?ie=UTF8&amp;qid=1547823531&amp;sr=8-13&amp;keywords=html5+canvas+animations&amp;linkCode=li3&amp;tag=wwwvivaxsolut-21&amp;linkId=d798908724933aeba96fd42a792465cc&amp;language=en_GB" target="_blank"><img src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/q_003.jpg" border="0"></a><img src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/ir_004.gif" alt="" style="border:none !important; margin:0px !important;" width="1" height="1" border="0">
+				     <p>&nbsp;</p>
+					 <p class="text-left">David Geary, in this book, shows how to 
+combine JavaScript and HTML5 Canvas to produce amazing animations; he 
+has set aside a whole chapter to teach you the role of physics in 
+animations. If you want an in-depth understanding about HTML5 Canvas 
+animations, this is a must read. </p>
+
+                </div>
+ </div>
+ 
+                </div>
+	</section>
+
+<!---------------------------------------------------fa-cons and footer section---------------------------->
+ <footer id="footer">
+		<div class="container">
+			<div class="social text-center">
+				<a href="https://twitter.com/vivaxsolutions"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+				<a href="https://plus.google.com/118203812557690392364/posts"><i class="fa fa-google-plus"></i></a>
+				<a href="https://www.youtube.com/user/TheVivaxSolutions"><i class="fa fa-youtube"></i></a>
+				<a href="https://github.com/"><i class="fa fa-github"></i></a>
+			</div>
+			<div class="clear"></div>
+			<!--CLEAR FLOATS-->
+		</div>
+		<div class="footer2">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 panel">
+						<div class="panel-body-top">
+							<p>Mathematics</p>
+								<ul>
+									<li><a href="https://www.vivaxsolutions.com/maths/gcsebearings.aspx">Bearings</a></li>
+									<li><a href="https://www.vivaxsolutions.com/maths/venn.aspx">Venn Diagrams</a></li>
+									<li><a href="https://www.vivaxsolutions.com/maths/mathsgenerator.aspx">Worksheet Generator</a></li>
+									<li><a href="https://www.vivaxsolutions.com/maths/gcsecrvtransformations.aspx">Transformation of Graphs</a></li>
+									<li><a href="https://www.vivaxsolutions.com/maths/mathschallenge.aspx">Maths Challenge</a></li>
+									<li><a href="https://www.vivaxsolutions.com/maths/mathslab.aspx">Maths Lab</a></li>
+									<li><a href="https://www.vivaxsolutions.com/maths/statslab.aspx">Statistics Lab</a></li>
+									<li><a href="https://www.vivaxsolutions.com/maths/aldifferentiation.aspx">Basic Differentiation</a></li>
+									<li><a href="https://www.vivaxsolutions.com/maths/albscintgrtn.aspx">Basic Integration</a></li>
+                                    <li><a href="https://www.vivaxsolutions.com/maths/alcal.aspx">Use of Casio Calculator for Statistics</a></li>
+                                     <li><a href="https://www.vivaxsolutions.com/maths/gcse-mathematics-9-1.aspx">GCSE Mathematics (9-1)</a></li>
+                                     
+								</ul>
+						</div>
+					</div>
+						<div class="col-sm-4 panel">
+							<div class="panel-body-top">
+								<p>Physics</p>
+									<ul>
+										<li><a href="https://www.vivaxsolutions.com/physics/albkofelectricity.aspx">Electricity</a></li>
+										<li><a href="https://www.vivaxsolutions.com/physics/alrefraction.aspx">Refraction</a></li>
+										<li><a href="https://www.vivaxsolutions.com/physics/total-internal-reflection-examples-in-real-life.aspx">Total Internal Reflection</a></li>
+										<li><a href="https://www.vivaxsolutions.com/physics/gcseelctrosttcinduction.aspx">Electrostatics</a></li>
+										<li><a href="https://www.vivaxsolutions.com/physics/physicslab.aspx">Physics Lab</a></li>
+										<li><a href="https://www.vivaxsolutions.com/physics/gcsemtreffect.aspx">Motor Effect</a></li>
+										<li><a href="https://www.vivaxsolutions.com/physics/gcseeclipse.aspx">Eclipses</a></li>
+										<li><a href="https://www.vivaxsolutions.com/physics/allogicgates.aspx">Logic Gates</a></li>
+										<li><a href="https://www.vivaxsolutions.com/physics/gcsetrmnlspd.aspx">Terminal Velocity</a></li>
+                                        <li><a href="https://www.vivaxsolutions.com/physics/alsatellites.aspx">Satellites</a></li>
+                                        <li><a href="https://www.vivaxsolutions.com/physics/errors-and-uncertainties.aspx">Errors and Uncertainties</a></li>
+                                       
+									</ul>
+							</div>
+						</div>
+						<div class="col-sm-4 panel">
+							<div class="panel-body-top">
+								<p>Web Development</p>
+									<ul>
+										<li><a href="https://www.vivaxsolutions.com/web/aspnet_charts.aspx">ASP.Net Charts</a></li>
+										<li><a href="https://www.vivaxsolutions.com/web/aspnet_charts.aspx">ASP.Net Security</a></li>
+										<li><a href="https://www.vivaxsolutions.com/web/css3.aspx">CSS 3</a></li>
+										<li><a href="https://www.vivaxsolutions.com/web/html5.aspx">HTML5</a></li>
+										<li><a href="https://www.vivaxsolutions.com/web/html5-canvas.aspx">HTML5 Canvas Animations</a></li>
+										<li><a href="https://www.vivaxsolutions.com/web/javascript.aspx">JavaScript</a></li>
+										<li><a href="https://www.vivaxsolutions.com/web/html5-progress-circle.aspx">Percentage Circles with JavaScript</a></li>
+										<li><a href="https://www.vivaxsolutions.com/web/html5-canvas-solar-system.aspx">Solar System</a></li>
+										<li><a href="https://www.vivaxsolutions.com/web/html5-canvas-pendulum.aspx">Pendulum</a></li>
+										<li><a href="https://www.vivaxsolutions.com/web/html5-canvas-coin-game.aspx">Dragging Elements</a></li>
+                                        <li><a href="https://www.vivaxsolutions.com/web/python.aspx">Python for Beginners</a></li>
+                                   </ul>
+							</div>
+						</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 panel">
+						<div class="panel-body-bottom">
+							<p class="">
+								<a href="https://www.vivaxsolutions.com/index.aspx">Home</a> | 
+								<a href="https://www.vivaxsolutions.com/about.aspx">About</a> |
+								<a href="https://www.vivaxsolutions.com/mathematics.aspx">Maths</a> |
+								<a href="https://www.vivaxsolutions.com/physics.aspx">Physics</a> |
+								<a href="https://www.vivaxsolutions.com/webdevelopment.aspx">Programming</a> |
+								<a href="https://www.vivaxsolutions.com/contact.aspx">Contact</a>
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6 panel">
+						<div class="panel-body-bottom">
+							<p class="text-right">
+								<!--Script for automatic year update-->
+									</p><p>Copyright &nbsp;©<script type="text/javascript">
+									                             var today = new Date();
+									                             var y0 = today.getFullYear();
+									                             document.write(y0);
+										</script>2019 &nbsp;Vivax Solutions;&nbsp;&nbsp;All rights reserved.
+									</p>
+							<p></p>
+						</div>
+					</div>
+					<!--/container for two bottom rows-->
+				</div>
+				<!-- /row of panels -->
+				<!--/container-->
+			</div>
+			<!--/footer2-->
+		</div>
+	</footer>
+
+ <!-- Google Analytics -->
+                <script>
+                    (function (i, s, o, g, r, a, m) {
+                        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                            (i[r].q = i[r].q || []).push(arguments)
+                        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+                    ga('create', 'UA-18446280-1', 'auto');
+                    ga('send', 'pageview');
+
+                </script>
+
+
+</form><iframe style="display: none; height: 0px; width: 0px;" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/bfp_ssn.htm"></iframe>
+        <!-- Cookie Policy Oct 2018 -->
+        <link rel="stylesheet" type="text/css" href="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/cookieconsent.css">
+        <script src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/cookieconsent.js" async="" defer="defer"></script>
+<script>
+    window.addEventListener("load", function () {
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#343c66",
+                    "text": "#cfcfe8"
+                },
+                "button": {
+                    "background": "#f71559"
+                }
+            },
+            "content": {
+                "href": "https://www.vivaxsolutions.com/policy.aspx"
+            }
+        })
+    });
+</script>
+<!-- Scripts for preloading bootstrap and font aweseome customized css -->
+        <script>
+            var usedLaterStyleBS = document.createElement('link');
+            usedLaterStyleBS.href = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css';
+            usedLaterStyleBS.rel = 'stylesheet';
+            document.body.appendChild(usedLaterStyleBS)
+        </script><link href="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/bootstrap.css" rel="stylesheet">
+        <script>
+            var usedLaterStyleFA = document.createElement('link');
+            usedLaterStyleFA.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+            usedLaterStyleFA.rel = 'stylesheet';
+            document.body.appendChild(usedLaterStyleFA)
+        </script><link href="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/font-awesome.css" rel="stylesheet">
+        <script>
+            var usedLaterStyleGF = document.createElement('link');
+            usedLaterStyleGF.href = 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700';
+            usedLaterStyleGF.rel = 'stylesheet';
+            document.body.appendChild(usedLaterStyleGF)
+        </script><link href="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/css.css" rel="stylesheet">
+        <script>
+            var usedLaterStyleCS = document.createElement('link');
+            usedLaterStyleCS.href = '../assets/bs4-style.css';
+            usedLaterStyleCS.rel = 'stylesheet';
+            document.body.appendChild(usedLaterStyleCS)
+        </script><link href="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/bs4-style.css" rel="stylesheet">
+        <script>
+            var usedLaterScriptJS = document.createElement('script');
+            usedLaterScriptJS.src = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js';
+            document.body.appendChild(usedLaterScriptJS);
+        </script><script src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/bootstrap.js"></script>
+       <script>
+           var usedLaterScriptJQ = document.createElement('script');
+           usedLaterScriptJQ.src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js';
+           document.body.appendChild(usedLaterScriptJQ);
+        </script><script src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/jquery.js"></script>
+            <!-- Latest compiled JavaScript -->
+            <script src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/bootstrap.js" async=""></script>
+            <!-- jQuery library -->
+            <script src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/jquery.js" async=""></script>
+
+
+<ins class="adsbygoogle adsbygoogle-noablate" style="display: none !important;" data-adsbygoogle-status="done"><ins id="aswift_10_expand" style="display:inline-table;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><ins id="aswift_10_anchor" style="display:block;border:none;height:0px;margin:0;padding:0;position:relative;visibility:visible;width:0px;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_10" name="aswift_10" style="left:0;position:absolute;top:0;border:0px;width:0px;height:0px;" frameborder="0"></iframe></ins></ins></ins><iframe id="google_osd_static_frame_8866270295568" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe></body><iframe id="google_esf" name="google_esf" src="Python%20Turtle%20Drawing%20&amp;%20Graphics%20-%20Turtle%20Tutorial%20with%20Animations%20%20%20Vivax%20Solutions_files/zrt_lookup.htm" style="display: none;" data-ad-client="ca-pub-0169544563487469"></iframe></html>

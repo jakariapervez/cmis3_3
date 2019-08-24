@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block stylesheet %}
+  <link rel="stylesheet" href="{% static 'css/accounts.css' %}">
+{% endblock %}
+{% block breadcrumb %}
+
+{% endblock %}
+{% block content %}
+<!--
+<p>
+    <button type="button" class="btn btn-primary js-create-ivt" data-url="{% url 'dpp_allocation_create' %}">
+      <i class="fas fa-edit"></i>
+     Add DPP Item
+    </button>
+  </p>
+ --> 
+  
+<!-- {% include 'progress/includes/partial_ivt_table_pagination.html' %}  -->
+{% include 'pac/includes/invoices/fy_select.html' %}
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+=======
+>>>>>>> 65827334fbf1f5d1e3508b179fb305e81b4c3651
+{% include 'pac/includes/invoices/month_select.html' %}
+<button type="button" class="btn btn-primary btn-lg js-sort-all" data-url="{% url 'invoice_sort' %}">				
+							 
+						<span class="glyphicon glyphicon-pencil"></span>Sort
+					  </button>
+<<<<<<< HEAD
+>>>>>>> 65827334fbf1f5d1e3508b179fb305e81b4c3651
+=======
+>>>>>>> 65827334fbf1f5d1e3508b179fb305e81b4c3651
+ <button type="button" class="btn btn-primary btn-lg js-create-ivt" data-url="{% url 'create_invoice' %}">				
+							 
+						<span class="glyphicon glyphicon-pencil"></span> Add
+					  </button>
+<!--<button type="button" class="btn btn-primary btn-lg" action="{% url 'expenditure_index'   %}">View Expenditure</button> -->
+<p> <a  href="{% url 'expenditure_index' %}">View Expenditures</a></p>
+<table class="table table-bordered table-striped  table-hover" id="ivt-table">
+    <thead class="thead-dark">
+	 
+      <tr>
+		<th>Invoice No</th>	        
+        <th>Date</th>        
+		<th>Total</th>
+		<th>Invoice_Documents</th>
+        <th>Edit Inv</th>
+		<th>Delete Inv</th>
+		<th>Add Exp</th>
+		
+        	
+      </tr>
+    </thead>
+	<tbody>    
+	{% include 'pac/includes/invoices/partial_invoices_list.html' %}
+  </tbody>
+
+</table>
+ <div class="modal fade" id="modal-ivt">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+
+ {% block localscript %}
+
+<script src="{% static 'pac/js/invoice_list.js'  %}"></script>
+
+	{% endblock %}  
