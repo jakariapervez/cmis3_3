@@ -17,14 +17,13 @@ urlpatterns=[
     url('^invoice/(?P<pk>\d+)/delete/$',views.Delete_invoice,name='delete_invoice'),
     url('^invoice/add/$',views.Add_invoice,name='create_invoice'),
     url('^invoice/(?P<pk>\d+)/yearwise/$',views.list_invoices_sort_by_fy,name='invoice_yearwise'),
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
+
+
     url('^invoice/sort/all/$',views.invoice_list_sort_by_all,name='invoice_sort'),
->>>>>>> 65827334fbf1f5d1e3508b179fb305e81b4c3651
-=======
+
+
     url('^invoice/sort/all/$',views.invoice_list_sort_by_all,name='invoice_sort'),
->>>>>>> 65827334fbf1f5d1e3508b179fb305e81b4c3651
+
     #Expediture Related URL
     url('^expenditure/(?P<pk>\d+)/add/$',views.Add_Expenditure,name='create_expediture'),
     url('^expenditure/(?P<pk>\d+)/update/$',views.UpdateExpenditure,name='edit_expenditure'),
